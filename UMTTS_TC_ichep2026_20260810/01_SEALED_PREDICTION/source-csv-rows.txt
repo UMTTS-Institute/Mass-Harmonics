@@ -1,0 +1,18 @@
+﻿# Source rows from MH_PRED_V1_02_wwPDB.csv equivalent for ICHEP 2026 prediction
+# These are the relevant sealed numerical outputs for comparison
+
+PATHWAY,SEALED_VALUE,UNITS,DERIVATION_SOURCE
+P1a_m_H,124.6,GeV,"v * phi^(-sqrt(2)); v=246 GeV"
+P1b_lambda_H,0.12816,dimensionless,"phi^(-2*sqrt(2)) / 2"
+P2_m_t,172.2,GeV,"m_c * alpha^-1; m_c=1.257 GeV"
+P3_N_gen,3,count,"I_h irrep count: 3 nontrivial 3D irreps"
+P4_mv1,46.81,meV,"me * alpha^3 * phi^-3"
+P4_mv2,11.05,meV,"mv[1] * phi^-3"
+P4_mv3,2.61,meV,"mv[2] * phi^-3"
+P4_Smv,60.47,meV,"mv[1] + mv[2] + mv[3]"
+P4_ratio,4.23607,dimensionless,"phi^3; adjacent mass ratio"
+P5_particle_closure,0,boolean,"0 = no particle closes all 6 identities"
+P6_free_quark,0,boolean,"0 = no isolated free color charge"
+P6_modes,8,count,"8 independent oscillation directions in octet"
+P6_centroid_potential,quadratic,type,"Pi(r) = (K/omega)*r^2"
+P6_asymptotic_energy,infinite,type,"U(infinity) = infinity"

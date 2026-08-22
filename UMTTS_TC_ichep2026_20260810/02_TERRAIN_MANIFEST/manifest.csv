@@ -1,0 +1,22 @@
+﻿ID,arXiv_or_Source,Date,Pathway,Role,URL
+T1,arXiv:2607.12039,2026-07-13,P1a,BSM scalar constraint background,https://arxiv.org/abs/2607.12039
+T2,arXiv:2607.23352,2026-07-25,P1a P1b,CMS off-shell Higgs - first self-coupling off-shell constraint,https://arxiv.org/abs/2607.23352
+T3,arXiv:2607.26879,2026-08-05,P1b,ATLAS di-Higgs bbtt 196/fb kappa_lambda interval,https://arxiv.org/abs/2607.26879
+T4,arXiv:2608.03936,2026-08-04,P1b,ATLAS Higgs coupling update,https://arxiv.org/abs/2608.03936
+T5,arXiv:2608.05096,2026-08-05,P1b,CMS Higgs coupling update,https://arxiv.org/abs/2608.05096
+T6,arXiv:2607.27276,2026-07-29,P2,ATLAS ttH tH H->tt Yukawa adjacent,https://arxiv.org/abs/2607.27276
+T7,arXiv:2607.27307,2026-07-29,P3,ATLAS heavy Majorana VBS exclusions above 1.5 TeV,https://arxiv.org/abs/2607.27307
+T8,CMS-B2G-24-002,2026-08-ICHEP,P3,CMS A->ZH heavy resonance search,https://cms.cern/news/cms-ichep-2026
+T9,CMS-B2G-24-011,2026-08-ICHEP,P3,CMS resonant HH search,https://cms.cern/news/cms-ichep-2026
+T10,CMS-B2G-24-019,2026-08-ICHEP,P3,CMS H+scalar search,https://cms.cern/news/cms-ichep-2026
+T11,ATLAS-VLQ-high-mass,2026-08-ICHEP,P3,ATLAS vector-like T quark and high-mass dilepton,https://atlas.cern/ichep2026
+T12,arXiv:2606.30903-v2,2026-07-22,P4,First 2-sigma cosmological neutrino mass detection Smv=100meV,https://arxiv.org/abs/2606.30903
+T13,arXiv:2607.19340,2026-07-21,P4,JUNO Dm2 integral representation m1 bound,https://arxiv.org/abs/2607.19340
+T14,arXiv:2607.24742,2026-07-27,P4,Cosmic nu mass dark-energy-independent 152meV bound,https://arxiv.org/abs/2607.24742
+T15,arXiv:2607.03183,2026-07-03,P4,Neutrino mass cosmology supplementary,https://arxiv.org/abs/2607.03183
+T16,arXiv:2607.01226,2026-07-01,P4,Neutrino mass oscillation supplementary,https://arxiv.org/abs/2607.01226
+T17,CMS-EXO-24-010+036+NPS,2026-08-ICHEP,P5,CMS dark matter strongly-coupled inelastic and MET searches,https://cms.cern/news/cms-ichep-2026
+T18,ATLAS-dark-sector,2026-08-ICHEP,P5,ATLAS dark sector search suite,https://atlas.cern/ichep2026
+T19,arXiv:2607.24446,2026-07-27,P5,U(1) extension Higgs DM constraint,https://arxiv.org/abs/2607.24446
+T20,arXiv:2607.21952,2026-07-24,P6,Quark confinement force consistent with linear potential,https://arxiv.org/abs/2607.21952
+T21,arXiv:2607.20337,2026-07-22,P6,Lattice QCD EMT physical quark masses continuum limit,https://arxiv.org/abs/2607.20337

@@ -1,0 +1,7 @@
+﻿Run this scorer with:
+    python residual_calc.py
+
+No external packages required. Python 3.7+ standard library only.
+
+Expected output: All residuals and interval checks for P1-P4.
+See 08_REPLICATION_CHALLENGE/expected-output.txt for reference values.

@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>MH ICHEP 2026 - Replication Challenge</title>
+<style>
+  body { background:#0d0f14; color:#e8e2d4; font-family:'Segoe UI',sans-serif; padding:2rem; max-width:800px; margin:0 auto; line-height:1.7; }
+  h1 { color:#c8a94a; border-bottom:1px solid #2a2d35; padding-bottom:0.75rem; margin-bottom:1.5rem; }
+  h2 { color:#c8a94a; margin:1.5rem 0 0.5rem; }
+  pre { background:#0f1117; border:1px solid #2a2d35; padding:1rem; border-radius:6px; overflow-x:auto; font-size:0.82rem; }
+  .step { background:#161921; border-left:3px solid #c8a94a; padding:0.75rem 1rem; margin:0.75rem 0; }
+  footer { color:#8a8070; font-size:0.82rem; margin-top:2rem; border-top:1px solid #2a2d35; padding-top:1rem; }
+</style>
+</head>
+<body>
+<h1>Replication Challenge - ICHEP 2026 MH Validation</h1>
+
+<p>An independent verifier can reproduce the core numerical results of this
+validation without access to any software beyond Python 3.7+ standard library.</p>
+
+<h2>Step 1: Run the scorer</h2>
+<div class="step">
+<pre>cd 04_EXECUTABLE_SCORER/
+python residual_calc.py</pre>
+<p>Compare all values to <code>expected-output.txt</code> in this directory.</p>
+</div>
+
+<h2>Step 2: Verify four key numerical claims independently</h2>
+
+<div class="step">
+<strong>Claim 1:</strong> kappa_lambda,MH ~ 0.993
+<pre>phi = (1+5**0.5)/2
+lambda_MH = phi**(-2*(2**0.5)) / 2           # 0.12819...
+lambda_SM = 125.08**2 / (2 * 246.22**2)      # 0.12903...
+kappa = lambda_MH / lambda_SM                 # 0.9932...</pre>
+</div>
+
+<div class="step">
+<strong>Claim 2:</strong> 172.2 GeV inside [172.19, 172.85] GeV
+<pre>m_t = 172.52; unc = 0.33
+lo = m_t - unc; hi = m_t + unc
+print(lo, "<", 172.2, "<", hi, ":", lo <= 172.2 <= hi)</pre>
+</div>
+
+<div class="step">
+<strong>Claim 3:</strong> MH lightest mass inside JUNO substrate-consistent bound
+<pre>import math
+phi = (1+5**0.5)/2; alpha = 1/137.035989
+me_meV = 0.5109989e9
+mv3 = me_meV * alpha**3 * phi**(-9)           # 2.612 meV
+mv2 = me_meV * alpha**3 * phi**(-6)           # 11.07 meV
+dm2_21 = (mv2/1000)**2 - (mv3/1000)**2        # eV^2
+bound = math.sqrt(61 * dm2_21) / 30 * 1000   # meV
+print("mv3:", round(mv3,3), "< bound:", round(bound,4))</pre>
+</div>
+
+<div class="step">
+<strong>Claim 4:</strong> Smv = 60.47 meV inside [50, 140] meV 1-sigma detection band
+<pre>mv1 = me_meV * alpha**3 * phi**(-3)
+mv2 = mv1 * phi**(-3)
+mv3 = mv2 * phi**(-3)
+Smv = mv1 + mv2 + mv3
+print("Smv:", round(Smv,2), "in [50, 140]:", 50 <= Smv <= 140)</pre>
+</div>
+
+<h2>Step 3: Verify ATLAS di-Higgs interval claim</h2>
+<div class="step">
+From arXiv:2607.26879 abstract:
+<pre>kappa_lambda,MH = 0.993
+ATLAS 95% CL observed: [-3.4, 1.6]
+print(-3.4 <= 0.993 <= 1.6)   # True</pre>
+</div>
+
+<footer>
+UMtts Institute | Thomas Russell Giboney, Founder | TRUTH > COMFORT. Always.
+</footer>
+</body>
+</html>

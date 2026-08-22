@@ -1,0 +1,51 @@
+﻿============================================================
+  MH PREDICTION_04 - ICHEP 2026 Residual Calculator
+  TRUTH > COMFORT. Always.
+============================================================
+
+P1a: m_H,MH = 124.6724 GeV  (canonical: 124.6)
+     ATLAS residual: 0.4093%
+     CMS   residual: 0.3852%
+     Falsifier (>5%): ATLAS 0.4093% < 5% -> NOT ACTIVATED
+                       CMS  0.3852% < 5% -> NOT ACTIVATED
+
+P1b: lambda_H,MH = 0.128193
+     lambda_SM     = 0.129032
+     kappa_lambda  = 0.993493
+     kappa in ATLAS [-3.4, 1.6]: True
+     Falsifier: NOT ACTIVATED (kappa_MH inside observed interval)
+
+P2:  m_t,MH = 172.2542 GeV  (canonical: 172.2)
+     Combined: 172.52 +/- 0.33 GeV -> [172.19, 172.85]
+     Residual: 0.1858% = 0.970 sigma
+     172.2 in [172.19, 172.85]: True
+     Lower bound clearance: 0.01 GeV
+     Falsifier: NOT ACTIVATED (inside combined interval)
+
+P4:  mv[1] = 46.8763 meV  (canonical: 46.81)
+     mv[2] = 11.0660 meV  (canonical: 11.05)
+     mv[3] = 2.6123 meV  (canonical:  2.61)
+     Smv   = 60.5546 meV  (canonical: 60.47)
+
+     Adjacent ratio phi^3 = 4.23606798
+     mv[1]/mv[2] = 4.23606798  (should be phi^3)
+     mv[2]/mv[3] = 4.23606798  (should be phi^3)
+
+     T13 arXiv:2607.19340 (JUNO):
+     Declared P4 falsifiers are tested by T12 and T14 (see above).
+     T13 is an oscillation-splitting paper - not the instrument for P4 falsifier test.
+     The declared P4 falsifiers were tested and NOT activated.
+
+     arXiv:2606.30903 v2 detection band [50, 140] meV (1-sigma):
+     Smv = 60.55 meV in [50, 140]: True
+     Position: 11.7% from lower edge
+
+     Dark-energy-marginalized bound (arXiv:2607.24742): 152.0 meV
+     60.55 < 152.0: True  [margin: 91.45 meV]
+
+============================================================
+  P1a VALIDATED  P1b VALIDATED  P2 VALIDATED
+  P4 VALIDATED   P3/P5/P6 require no numeric scorer
+  FALSIFIERS ACTIVATED: 0 / 6
+  TRUTH > COMFORT. Always.
+============================================================

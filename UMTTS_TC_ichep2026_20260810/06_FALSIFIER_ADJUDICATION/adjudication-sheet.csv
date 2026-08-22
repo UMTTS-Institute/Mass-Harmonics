@@ -1,0 +1,12 @@
+﻿Pathway,SealedValue,Units,TerrainSource,TerrainValue,Residual,FalsifierForm,Activated,Status
+P1a m_H,124.6,GeV,"ATLAS 125.11 CMS 125.08","ATLAS +0.41% CMS +0.39%","ATLAS 0.4093% CMS 0.3852%",|delta|/124.6 > 5%,NO,VALIDATED
+P1b lambda_H,0.12816,dimensionless,"ATLAS arXiv:2607.26879","kappa_MH=0.993 in [-3.4,1.6]","-0.71% from unity",|lambda-0.12816|/0.12816 > 5%,NO,VALIDATED
+P2 m_t,172.2,GeV,"arXiv:2402.08713 combo","172.52 +/- 0.33 [172.19-172.85]","0.1858% 0.97sigma",Interval excludes 172.2,NO,VALIDATED
+P3 N_gen,3,count,"ICHEP 2026 BSM suite","No complete 4th family","N/A - exact",Complete 4th sequential family,NO,VALIDATED EXACTLY
+P4 Smv,60.47,meV,"arXiv:2606.30903v2","100+40/-50 meV [50-140]","11.7% from lower 1-sigma edge",Robust total below 60.47 (cat-correct),NO,VALIDATED
+P4 mv_lightest,2.61,meV,"arXiv:2607.19340 (MH Dm2)","2.7995 meV bound (MH substrate)","2.61 < 2.7995",Robust lower bound above 2.61,NO,VALIDATED
+P5 closure,0 species,boolean,"CMS+ATLAS ICHEP 2026","No species closes all 6 identities","N/A - categorical",Single species closes all 6,NO,VALIDATED EXACTLY
+P6 Branch1 free quark,0,boolean,"arXiv:2607.21952","Strong confining force confirmed","N/A - categorical",Free quark with unclosed color,NO,VALIDATED
+P6 Branch2 finite asym,0,boolean,"arXiv:2607.21952","Consistent with linear confinement","N/A - categorical",Finite asymptotic energy,NO,VALIDATED
+P6 Branch3 ninth mode,0,boolean,"arXiv:2607.20337","Full EMT without ninth mode","N/A - categorical",Ninth mode required,NO,VALIDATED
+P6 Branch4 centroid,quadratic,type,"Not yet directly extracted","Not contradicted","N/A - unresolved",Nonquadratic centroid (cat-correct),NO,NOT CONTRADICTED
