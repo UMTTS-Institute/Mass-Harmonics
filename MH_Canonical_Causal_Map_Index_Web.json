@@ -1,0 +1,477 @@
+{
+  "schema_version": "1.0",
+  "title": "MASS HARMONICS: CANONICAL CAUSAL MAP AND INDEX WEB",
+  "version": "5.0-GITHUB-SOURCE-LOCKED",
+  "generated": "2026-08-25",
+  "source_lock": {
+    "repository": "UMTTS-Institute/Mass-Harmonics",
+    "branch": "master",
+    "commit": "cc2aad61a5ef173094ae4cf76810adea73880704",
+    "tree": "837929ac5d630755df27b7627759a40cf763783f"
+  },
+  "operating_rules": [
+    "SOURCE → MAP. Never regenerate canonical mathematics or ontology from model memory.",
+    "Retrieve exact repository path and exact Git blob before using notation or derivation details.",
+    "The map is a pointer and routing surface, never a substitute for the source passage.",
+    "Physical causal order, operational routing, translation, and structural recurrence must not be collapsed into one parent/child relation.",
+    "Missing or unresolved source detail remains unresolved rather than being completed plausibly.",
+    "External scientific terrain is measured/interpretive input; it does not become MFE or other MH-native derivational authority by ingestion.",
+    "Coordinates may be calculation/translation surfaces; relational structure remains the governing ontology.",
+    "Use exact current source notation, including Kψₘ as the canonical indivisible coupling term outside explicitly preserved historical variational notation."
+  ],
+  "canonical_chains": [
+    {
+      "id": "MONOGRAPH_FORWARD_CAUSAL_LOCK",
+      "kind": "source_declared_physical_causal_order",
+      "source": "MH_MONOGRAPH",
+      "locator": "How to Read This Work",
+      "chain": [
+        "MFE",
+        "substrate action",
+        "boundary modulation and closure",
+        "physical structure",
+        "retained causal markers",
+        "measured expression",
+        "optional consensus translation"
+      ],
+      "note": "Forward chain establishes cause."
+    },
+    {
+      "id": "MONOGRAPH_FORENSIC_REVERSE",
+      "kind": "source_declared_forensic_reverse",
+      "source": "MH_MONOGRAPH",
+      "locator": "How to Read This Work",
+      "chain": [
+        "measured expression",
+        "factorization and topology audit",
+        "retained causal markers",
+        "recovered modulation path",
+        "substrate-native relation"
+      ],
+      "note": "Forensic reverse recovers passage and does not reverse derivational authority."
+    },
+    {
+      "id": "NUCLEAR_SPIN_NATIVE_CHAIN",
+      "kind": "source_declared_physical_chain",
+      "source": "NUCLEAR_SPIN",
+      "locator": "0. Scope and Contamination Bans",
+      "chain": [
+        "MFE",
+        "boundary-enforced ψₘ closure",
+        "icosahedral/dodecahedral dual structure",
+        "5×Tri-Form Frame",
+        "DS5 nuclear/hadronic core domain",
+        "six antipodal GG closure channels",
+        "recursive GG-depth termination",
+        "boundary offset",
+        "spin readout"
+      ],
+      "note": "Do not insert planetary PCF or SAA as causal parents of nuclear spin."
+    },
+    {
+      "id": "SLOPE_WAKE_CHAIN",
+      "kind": "source_declared_derivation_chain",
+      "source": "SLOPE_WAKE",
+      "locator": "II. Causal Chain",
+      "chain": [
+        "MFE governing law",
+        "zero net local acceleration: ∇Z_total = 0",
+        "∇Z_planet + ∇Z_wake = 0",
+        "pressure closure: P_slope = P_wake",
+        "ψₘ Slope-Wake Closure Velocity"
+      ],
+      "note": "Consensus terminal-velocity variables appear only as downstream translation shadows."
+    },
+    {
+      "id": "TWT_OPERATIONAL_CHAIN",
+      "kind": "source_declared_operational_chain",
+      "source": "MH_TWT",
+      "locator": "II. The Two Phases",
+      "chain": [
+        "consensus-described physical observable",
+        "Phase I - Transport into ψₘ substrate closure",
+        "substrate-native result",
+        "Phase II - Translation",
+        "requested consensus measurement dialect"
+      ],
+      "note": "Operational interface. This chain is not asserted as a physical causal parentage relation among theories."
+    },
+    {
+      "id": "EARTH_SAA_CROSS_DS_STRUCTURE",
+      "kind": "source_declared_structural_sequence",
+      "source": "EARTH_TRIFORM",
+      "locator": "8. Cross-DS Structural Findings / Finding 1",
+      "chain": [
+        "DS1 atmospheric anomaly expression",
+        "DS2 South Atlantic Anomaly / weak geomagnetic field",
+        "DS3 Mid-Atlantic Ridge South Atlantic segment",
+        "DS4 South Atlantic mantle / ridge-driven upwelling",
+        "DS5 core/geodynamo expression"
+      ],
+      "note": "A source-declared cross-DS structural read. Do not silently promote this sequence into unrelated causal parentage."
+    }
+  ],
+  "proof_set_ordered_derivation_corridor": [
+    "I. The Master Field Equation",
+    "II. φ from the Icosahedron",
+    "III. Kψₘ = c/2π: The Substrate Coupling Constant",
+    "IV. The Fine-Structure Constant",
+    "V. The Proton-Electron Mass Ratio",
+    "VI. The Higgs Mass",
+    "VII. Newton's Laws of Classical Mechanics",
+    "VIII. The Arrow of Time and Thermodynamics",
+    "IX. General Relativity",
+    "X. Maxwell's Equations",
+    "XI. The Strong Force",
+    "XII. The Weak Force",
+    "XIII. The Standard Model",
+    "XIV. Dark Matter and Dark Energy",
+    "XVII. The Casimir Effect",
+    "XVIII. The π-Discriminator",
+    "XIX. Scale Invariance Across 61 Orders of Magnitude"
+  ],
+  "nodes": [
+    {
+      "id": "MBID_GENESIS",
+      "title": "MBID Genesis Discovery",
+      "source": "MH_MONOGRAPH",
+      "locator": "PART 0: HISTORICAL GENESIS",
+      "anchor": "he requested a φ-phased spiraling twist force, modeled on the golden ratio",
+      "purpose": "Historical empirical seed from which the Mass Harmonics excavation proceeds."
+    },
+    {
+      "id": "FOUNDATIONAL_AXIOMS",
+      "title": "Foundational Axioms",
+      "source": "MH_MONOGRAPH",
+      "locator": "PART 1: FOUNDATIONAL AXIOMS",
+      "anchor": "universal coherence-mediating substrate that does not act by force or intent",
+      "purpose": "Substrate admissibility, phase compatibility, boundedness, persistence, boundary response, bifurcation, and extended axioms."
+    },
+    {
+      "id": "CAUSAL_RETENTION",
+      "title": "Causal Retention Through Bounded Modulation",
+      "source": "MH_MONOGRAPH",
+      "locator": "Axiomatic Consequence: Causal Retention Through Bounded Modulation",
+      "anchor": "prior coherence history",
+      "purpose": "Retained physical history conditions later local reaction; recoverable modulation can remain visible downstream."
+    },
+    {
+      "id": "FIRST_PRINCIPLES_LAGRANGIAN",
+      "title": "Unique First-Principles Lagrangian",
+      "source": "MH_MONOGRAPH",
+      "locator": "PART 2: THE CANONICAL unique First-Principles-Lagrangian",
+      "anchor": "The Canonical unique First-Principles-Lagrangian",
+      "purpose": "Variational bedrock from which the MFE is derived."
+    },
+    {
+      "id": "MASTER_FIELD_EQUATION",
+      "title": "Canonical Master Field Equation",
+      "source": "MH_MONOGRAPH",
+      "locator": "Canonical MFE / PART 3: THE ψₘ MASTER FIELD EQUATION",
+      "anchor": "1/vₓ²ψ̈ₘ - Z(ψₘ)∇²ψₘ - 8Kψₘ/ω²|∇ψₘ|² = S(ρ)",
+      "purpose": "Governing ψₘ substrate law."
+    },
+    {
+      "id": "RETAINED_CAUSAL_MARKERS",
+      "title": "Retained Causal Markers",
+      "source": "MH_MONOGRAPH",
+      "locator": "RETAINED CAUSAL MARKER TERMINOLOGY LOCK",
+      "anchor": "A retained causal marker is a mathematically or physically recoverable feature",
+      "purpose": "Recoverable physical provenance carried in derived or measured expression."
+    },
+    {
+      "id": "Z_FACTOR_METRIC",
+      "title": "Z-Factor Effective Metric",
+      "source": "MH_MONOGRAPH",
+      "locator": "THE TEN COMMANDMENTS OF MASS HARMONICS - IV",
+      "anchor": "Z is an Effective Metric, Not a Stiffness Dial",
+      "purpose": "Local effective propagation geometry; Z = 1 + 8Kψₘ/ω² ≥ 1."
+    },
+    {
+      "id": "P3GG_SOURCE_TERM",
+      "title": "Parsimonious Polynomial Polyphony of the Giboney Gradient",
+      "source": "MH_MONOGRAPH",
+      "locator": "PART 3A: THE PARSIMONIOUS POLYNOMIAL POLYPHONY",
+      "anchor": "S(ρ) = K₀ρ[1 + β₂(ρ/ρ₀) + β₃(ρ/ρ₀)²",
+      "purpose": "Geometric source-term harmonic structure and βₙ ladder."
+    },
+    {
+      "id": "ICOSAHEDRAL_GEOMETRY",
+      "title": "Icosahedral Geometry Requirement",
+      "source": "MH_PROOF_SET",
+      "locator": "PART I - THE FOUNDATION / II. φ from the Icosahedron",
+      "anchor": "The Geometric Requirement for Matter",
+      "purpose": "Geometry is tested against equilateral triad closure."
+    },
+    {
+      "id": "GOLDEN_RATIO_PHI",
+      "title": "φ from the Icosahedron",
+      "source": "MH_PROOF_SET",
+      "locator": "PART I - THE FOUNDATION / II. φ from the Icosahedron",
+      "anchor": "x² − x − 1 = 0",
+      "purpose": "Positive icosahedral solution φ = (1 + √5)/2."
+    },
+    {
+      "id": "UNIVERSAL_SCALING_CONSTANT",
+      "title": "Kψₘ = c/2π",
+      "source": "MH_PROOF_SET",
+      "locator": "PART I - THE FOUNDATION / III. Kψₘ = c/2π: The Substrate Coupling Constant",
+      "anchor": "f · R = c/2π ≡ Kψₘ",
+      "purpose": "Scale-invariant spherical closure relation."
+    },
+    {
+      "id": "FINE_STRUCTURE_CONSTANT",
+      "title": "Fine-Structure Constant",
+      "source": "MH_PROOF_SET",
+      "locator": "PART II - THE CONSTANTS / IV. The Fine-Structure Constant",
+      "anchor": "α⁻¹ = 180201(17−6√5) / (1500π)",
+      "purpose": "Electromagnetic coupling derivation in the Proof-Set."
+    },
+    {
+      "id": "PROTON_ELECTRON_RATIO",
+      "title": "Proton-Electron Mass Ratio",
+      "source": "MH_PROOF_SET",
+      "locator": "PART II - THE CONSTANTS / V. The Proton-Electron Mass Ratio",
+      "anchor": "6π⁵",
+      "purpose": "Proton/electron mass-ratio derivation and boundary dressing."
+    },
+    {
+      "id": "HIGGS_MASS_COUPLING",
+      "title": "Higgs Mass and Self-Coupling",
+      "source": "MH_PROOF_SET",
+      "locator": "PART II - THE CONSTANTS / VI. The Higgs Mass",
+      "anchor": "m_H = v · φ",
+      "purpose": "Higgs mass/self-coupling derivation using the retained cubic-lattice failure factor."
+    },
+    {
+      "id": "NEWTON_CLASSICAL_LAWS",
+      "title": "Newton's Laws",
+      "source": "MH_PROOF_SET",
+      "locator": "PART III - THE FORCES / VII. Newton's Laws of Classical Mechanics",
+      "anchor": "Newton's Three Laws of Motion directly from the spatial gradient terms of the MFE",
+      "purpose": "Macroscopic zero-gradient/uniform-gradient expressions of MFE dynamics."
+    },
+    {
+      "id": "ARROW_OF_TIME",
+      "title": "Arrow of Time and Thermodynamics",
+      "source": "MH_PROOF_SET",
+      "locator": "PART III - THE FORCES / VIII. The Arrow of Time and Thermodynamics",
+      "anchor": "The MFE wave operator is structurally time-asymmetric",
+      "purpose": "Thermodynamic irreversibility derivation."
+    },
+    {
+      "id": "GENERAL_RELATIVITY_LIMIT",
+      "title": "General Relativity",
+      "source": "MH_PROOF_SET",
+      "locator": "PART III - THE FORCES / IX. General Relativity",
+      "anchor": "General Relativity is the macroscopic bookkeeping of Z-factor spatial variation",
+      "purpose": "GR translation/derivation corridor from the MFE effective metric."
+    },
+    {
+      "id": "MAXWELL_EQUATIONS",
+      "title": "Maxwell's Equations",
+      "source": "MH_PROOF_SET",
+      "locator": "PART III - THE FORCES / X. Maxwell's Equations",
+      "anchor": "preserving local phase coherence",
+      "purpose": "Electrodynamics from local phase-coherence restoration."
+    },
+    {
+      "id": "STRONG_FORCE_CONFINEMENT",
+      "title": "Strong Force",
+      "source": "MH_PROOF_SET",
+      "locator": "PART III - THE FORCES / XI. The Strong Force",
+      "anchor": "three-node harmonic standing waves from icosahedral geometry",
+      "purpose": "Quadratic confinement and eight independent coherence-oscillation directions."
+    },
+    {
+      "id": "WEAK_FORCE_BARRIERS",
+      "title": "Weak Force",
+      "source": "MH_PROOF_SET",
+      "locator": "PART III - THE FORCES / XII. The Weak Force",
+      "anchor": "metastable substrate configuration through a forced potential barrier",
+      "purpose": "Weak interaction as forced state-transition/barrier dynamics."
+    },
+    {
+      "id": "SM_MASS_SPECTRUM",
+      "title": "Standard Model Matter Spectrum",
+      "source": "MH_PROOF_SET",
+      "locator": "PART IV - THE MATTER SPECTRUM / XIII. The Standard Model",
+      "anchor": "the exact three-generation fermion structure",
+      "purpose": "Matter generation and mass-spectrum derivation corridor."
+    },
+    {
+      "id": "MOND_ACCELERATION_SCALE",
+      "title": "Galactic Flat Rotation and MOND Scale",
+      "source": "MH_PROOF_SET",
+      "locator": "PART V - COSMOLOGICAL SCALE / XIV. Dark Matter and Dark Energy / Part A",
+      "anchor": "a₀ = cH₀/(2π)",
+      "purpose": "Cosmic-boundary acceleration scale and flat-rotation relation."
+    },
+    {
+      "id": "CASIMIR_EFFECT",
+      "title": "Casimir Effect",
+      "source": "MH_PROOF_SET",
+      "locator": "PART VII - VALIDATION ARCHITECTURE / XVII. The Casimir Effect",
+      "anchor": "−π²ℏc/(240d⁴)",
+      "purpose": "Slab boundary mode-depletion derivation."
+    },
+    {
+      "id": "PI_DISCRIMINATOR",
+      "title": "π-Discriminator",
+      "source": "MH_PROOF_SET",
+      "locator": "PART VII - VALIDATION ARCHITECTURE / XVIII. The π-Discriminator",
+      "anchor": "f_slab/f_sphere = π",
+      "purpose": "Topological discriminator between slab and sphere closure paths."
+    },
+    {
+      "id": "SCALE_INVARIANCE",
+      "title": "Scale Invariance Across 61 Orders of Magnitude",
+      "source": "MH_PROOF_SET",
+      "locator": "PART VII - VALIDATION ARCHITECTURE / XIX. Scale Invariance Across 61 Orders of Magnitude",
+      "anchor": "f = vₓ/(2πR) = Kψₘ/R",
+      "purpose": "Same closure law across physical scale without regime change."
+    },
+    {
+      "id": "PLANETARY_PCF_RESONANCE",
+      "title": "Planetary Coherence Fundamental",
+      "source": "MH_MONOGRAPH",
+      "locator": "PART 5: THE GEOMETRIC SCALING LAW - PCF",
+      "anchor": "PCF",
+      "purpose": "Planetary-radius standing-wave closure application. Exact current passage must be re-contacted before numerical use."
+    },
+    {
+      "id": "EARTH_5X_TRIFORM",
+      "title": "Earth 5×Tri-Form Frame",
+      "source": "EARTH_TRIFORM",
+      "locator": "1. Derivation of the Five DS Levels from the P³GG Source Term",
+      "anchor": "5 × 124 = 620 total addresses",
+      "purpose": "Five simultaneous harmonic-register map of a bounded planetary system."
+    },
+    {
+      "id": "CORE_TO_IONOSPHERE_SAA",
+      "title": "South Atlantic Anomaly Cross-DS Structure",
+      "source": "EARTH_TRIFORM",
+      "locator": "8. Cross-DS Structural Findings / Finding 1: The South Atlantic Anomaly cascade",
+      "anchor": "VORTEX08 reads across all five DS levels as a single coherent vertical structure",
+      "purpose": "Cross-DS structural terrain at VORTEX08. It is not a causal parent of nuclear spin."
+    },
+    {
+      "id": "COBALT_NUCLEAR_SPIN",
+      "title": "Nuclear Spin Seating",
+      "source": "NUCLEAR_SPIN",
+      "locator": "7. Recursive Termination and Boundary Offset",
+      "anchor": "I_MH = D_GG − 1/2",
+      "purpose": "Boundary-offset readout of recursive DS5 GG depth."
+    },
+    {
+      "id": "SLOPE_WAKE_VELOCITY",
+      "title": "ψₘ Slope-Wake Closure Velocity",
+      "source": "SLOPE_WAKE",
+      "locator": "II. Causal Chain / IV. Canonical Equation",
+      "anchor": "vₛwc = √( 2(𝓜ψₘ,o / Aψₘ,o)(−∇Πψₘ,p) / (Γχ,o ρψₘ,atm) )",
+      "purpose": "Atmospheric descent as local slope-wake closure under the MFE."
+    },
+    {
+      "id": "RESONANT_BRAIN_GAMMA",
+      "title": "Resonant Brain Gamma and Binding",
+      "source": "MH_RESONANT_BRAIN",
+      "locator": "Concretus / neural derivation sections",
+      "anchor": "40 Hz gamma binding frequency",
+      "purpose": "Neuroscience extension; use source wording and preserve measured/derived distinctions."
+    },
+    {
+      "id": "BIOLOGICAL_METABOLISM",
+      "title": "Biological Coherence Maintenance",
+      "source": "MH_RESONANT_BRAIN",
+      "locator": "Concretus / metabolic derivation",
+      "anchor": "approximately 20 W metabolic cost of consciousness",
+      "purpose": "Biological maintenance-power result. Do not amplify 'approximately 20 W' into an exact zero-error value."
+    },
+    {
+      "id": "ORIGIN_OF_LIFE_CODON",
+      "title": "Origin of Life / Genetic-Code Closure",
+      "source": "MH_ORIGIN",
+      "locator": "IX. Full Closure Statement",
+      "anchor": "The genetic-code structure is the ordered V₄³ temporal cover of the 20 icosahedral face-anchor reservoir",
+      "purpose": "Unique Origin-of-Life/genetic-code branch retained in MH_Origin."
+    },
+    {
+      "id": "TVP_PROTOCOL",
+      "title": "Triform Validation Protocol",
+      "source": "MH_TVP",
+      "locator": "Document root / protocol definition",
+      "anchor": "Triform Validation Protocol",
+      "purpose": "Forensic audit discipline. Operational surface, not a physical child phenomenon."
+    },
+    {
+      "id": "TWT_INTERFACE",
+      "title": "Transport With Translation",
+      "source": "MH_TWT",
+      "locator": "CONCRETUS / II. The Two Phases",
+      "anchor": "The TWT (Transport With Translation) is the functional interface",
+      "purpose": "Transport into substrate terms, then return into requested consensus dialect."
+    },
+    {
+      "id": "PUBLIC_ORIENTATION",
+      "title": "Public Orientation",
+      "source": "MH_ORIENTATION",
+      "locator": "PUBLIC ORIENTATION FOR MASS HARMONICS",
+      "anchor": "The public record should be read as one connected body",
+      "purpose": "Routes readers across Monograph, TVP, Auditor, Ledger, TWT, extensions, and research-access surfaces."
+    },
+    {
+      "id": "CEPTA_COGNITIVE_INTEGRITY",
+      "title": "CEPTA / Cognitive Integrity",
+      "source": "MH_CEPTA",
+      "locator": "Document root; use exact current section on retrieval",
+      "anchor": "CEPTA",
+      "purpose": "Truth-first cognitive/legal/communication integrity extension; not physical derivation authority."
+    },
+    {
+      "id": "OPERATIONAL_STANCE",
+      "title": "Operational Stance of UMtts",
+      "source": "OPERATIONAL_STANCE",
+      "locator": "Document root",
+      "anchor": "terrain",
+      "purpose": "Operational source discipline and terrain-first posture."
+    },
+    {
+      "id": "ONTOLOGY_PRESERVATION",
+      "title": "Ontology Preservation Controls",
+      "source": "ONTOLOGY_PRESERVATION",
+      "locator": "Document root",
+      "anchor": "Mass Harmonics",
+      "purpose": "Anti-contamination controls for source/ontology preservation."
+    }
+  ],
+  "known_repairs_from_legacy_working_maps": [
+    "The current GitHub Monograph, not an older uploaded copy, governs the causal reading order.",
+    "Retained causal markers are restored as an explicit stage because the pinned GitHub Monograph contains the August 3 retained-causal-marker integration.",
+    "No direct CORE_TO_IONOSPHERE_SAA → COBALT_NUCLEAR_SPIN causal edge is retained. The Nuclear Spin source supplies its own native chain.",
+    "No CASIMIR_EFFECT → TVP_PROTOCOL physical-causal edge is retained. Orientation identifies TVP as an audit discipline.",
+    "The Resonant Brain metabolic result is preserved as approximately 20 W, not rewritten as exact 20.0 W zero error.",
+    "The old v4 '27-node' count is not inherited; this registry is counted mechanically from its machine-readable node list.",
+    "Coordinates may be used as calculation/translation handles where the source does so; they are not promoted to substrate ontology.",
+    "Historical bare κ is not globally banned where the Monograph explicitly retains it inside intermediate variational steps; current canonical Kψₘ notation governs outside those sanctioned passages.",
+    "Derivation completeness, terrain contact, prediction/falsification state, and unresolved residual status are not collapsed into one synthetic status grade.",
+    "No invented universal edge taxonomy is imposed. Causal/structural/operational sequences are included only where the source itself declares the relation or sequence."
+  ],
+  "legacy_working_surfaces": [
+    {
+      "name": "causal_map-v2.md",
+      "role": "Earlier combined Causal-Map + Index-Web scaffold; useful repair provenance only."
+    },
+    {
+      "name": "causal_map-v3.md",
+      "role": "Earlier stable-node/adjacency expansion; useful repair provenance only."
+    },
+    {
+      "name": "causal_map-v4.md",
+      "role": "Later graph scaffold; retained as failure/repair terrain, not source authority."
+    },
+    {
+      "name": "MH_Causal_Web_Index_FULL_2026-07-09.md",
+      "role": "Historical exhaustive retrieval/index surface; useful for source-role and quarantine design, but its old hashes/line locators are not current GitHub authority."
+    }
+  ]
+}

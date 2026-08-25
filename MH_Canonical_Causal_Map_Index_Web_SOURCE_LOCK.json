@@ -1,0 +1,93 @@
+{
+  "schema_version": "1.0",
+  "artifact": "Mass Harmonics Canonical Causal Map and Index Web",
+  "artifact_version": "5.0-GITHUB-SOURCE-LOCKED",
+  "generated": "2026-08-25",
+  "repository": "UMTTS-Institute/Mass-Harmonics",
+  "branch": "master",
+  "source_baseline_commit": "cc2aad61a5ef173094ae4cf76810adea73880704",
+  "source_baseline_tree": "837929ac5d630755df27b7627759a40cf763783f",
+  "authority_rule": "The index/map is a retrieval and causal-routing surface. The exact GitHub source object at the pinned commit remains authority over any index wording.",
+  "sources": {
+    "MH_MONOGRAPH": {
+      "path": "MH_Monograph.md",
+      "git_blob": "f1d10a08edb48046a495bcd62bd187f2b895581f",
+      "role": "Primary physical authority and canonical notation/causal spine."
+    },
+    "MH_PROOF_SET": {
+      "path": "MH_PROOF-SET.md",
+      "git_blob": "99098b3814058b27af1d7c32bbd518f12850a80f",
+      "role": "Ordered derivation and arithmetic verification companion."
+    },
+    "MH_TVP": {
+      "path": "MH_TVP.md",
+      "git_blob": "fa08465ff7fe026bd1f7b2b43d76860adf7118d2",
+      "role": "Triform Validation Protocol; forensic audit discipline."
+    },
+    "MH_TWT": {
+      "path": "MH_TWT.md",
+      "git_blob": "306eaa1f80a8243c86ad71969824e0ac2d3693a1",
+      "role": "Transport With Translation; functional interface between ψₘ substrate and consensus measurement dialects."
+    },
+    "MH_ORIENTATION": {
+      "path": "MH_Orientation.md",
+      "git_blob": "f485df287cb42bbdaf76380d64c5ef5f7548aa3f",
+      "role": "Public corpus routing and connected-terrain orientation."
+    },
+    "MH_101": {
+      "path": "MH_101.md",
+      "git_blob": "e96301bdfd766015790fff99b199984cb58728f3",
+      "role": "Entry corridor; subordinate to canonical source documents."
+    },
+    "MH_ORIGIN": {
+      "path": "MH_Origin.md",
+      "git_blob": "37daf5bbe81d67cd469d1418a3821c4b0befaecb",
+      "role": "Compound source containing unique Origin-of-Life terrain plus historical/embedded material."
+    },
+    "MH_ARCHITECTED_CAUSALITY": {
+      "path": "MH_Origin_of_Architected_Causality.md",
+      "git_blob": "128feb5bc9f4f901afc57a01618532930136bd3c",
+      "role": "Causal extension source; must not override Monograph/Proof-Set where duplicated."
+    },
+    "MH_RESONANT_BRAIN": {
+      "path": "MH_Resonant_Brain.md",
+      "git_blob": "0663035fa332ba72c475029c4398eefe0c78ecab",
+      "role": "Neuroscience extension of the same substrate law."
+    },
+    "MH_CEPTA": {
+      "path": "MH_CEPTA.md",
+      "git_blob": "6fbfedcf4d801a5876b03310b50d948adc56db35",
+      "role": "Cognitive/legal/communication integrity extension; not primary physical authority."
+    },
+    "EARTH_TRIFORM": {
+      "path": "Earth Triform Frame Map Set v2.2.md",
+      "git_blob": "f16bea9e4548e6e2c529d9885ee73a282f8b0552",
+      "role": "Planetary 5×Tri-Form application and cross-DS terrain map."
+    },
+    "NUCLEAR_SPIN": {
+      "path": "Nuclear Spin Derivation v2.2.md",
+      "git_blob": "ff2b908d1d22c1fa150696c423a74e4d1b59e1dc",
+      "role": "Mass Harmonics nuclear-spin derivation under 5×Tri-Form."
+    },
+    "SLOPE_WAKE": {
+      "path": "ψₘ Slope-Wake Closure-Velocity_v2.2.md",
+      "git_blob": "1739cc7e7b13b40b11e2df98927fba78454d134c",
+      "role": "Mass Harmonics slope-wake closure-velocity derivation."
+    },
+    "OPERATIONAL_STANCE": {
+      "path": "Operational_Stance_of_UMtts.md",
+      "git_blob": "a68a6621ca9ec7b2650badf8c01dbeb80b440a99",
+      "role": "Terrain-first operational/source-discipline authority."
+    },
+    "ONTOLOGY_PRESERVATION": {
+      "path": "5_bullets_for_preserving_Mass_Harmonics_Ontology.md",
+      "git_blob": "46bea1130db6fa5b9fbb90f016ee94ca12a914bb",
+      "role": "Anti-contamination and ontology-preservation operating surface."
+    },
+    "QPP_PLUS": {
+      "path": "QPP+.md",
+      "git_blob": "dd8e33a6803b26f9e1b1bb699233ff0cba7cbbce",
+      "role": "Companion extension/provenance surface; use according to its stated scope."
+    }
+  }
+}
