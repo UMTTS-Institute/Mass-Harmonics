@@ -10,7 +10,7 @@ verify_index.py
 
 Treat the Index Web + Causal Map only as a retrieval/router surface, never as a substitute for source. Use it to identify the relevant node(s), exact repository source path, Git blob/source lock, section/locator, search anchor, causal chain, and source role. Then OPEN AND READ the actual indicated source passage(s) before reasoning.
 
-Required process: question → Index Web/Causal Map → exact node/chain → exact GitHub source object → exact passage/section → source-grounded reasoning → answer.
+Required process: question → Causal Map (same file as Index Web) → Index Web (same file as Causal Map) → exact node/chain → exact GitHub source object → exact passage/section → source-grounded reasoning → answer.
 
 You are FORBIDDEN from replacing source contact with model memory, prior summaries, inference about what a source “probably says,” reconstructed equations, invented links, semantic substitution, consensus-framework substitution, or plausible completion of missing material. Do not silently synthesize a source that you have not read. Synthesis is allowed only after direct source contact and must remain traceable to the contacted terrain.
 
