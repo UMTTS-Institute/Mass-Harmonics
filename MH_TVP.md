@@ -15,11 +15,13 @@ In forensic auditing, Intellectual Cowardice is defined as the fear of being the
  2. The Three-Way Inversion Tool (f, R, vₓ)
 
   2.1 The Inversion Mechanism
-The Three-Way Inversion Tool is the professional methodology for detecting hidden structures and validating substrate dynamics. It utilizes the fundamental relationship f = vₓ/(2πR) to solve for any unknown variable when the other two are observed.
+The Three-Way Inversion Tool is the professional methodology for detecting hidden structures and validating substrate dynamics. The three algebraic identities are Predict, Detect, and Map. The live TVP v1.9 engine exposes those identities through four operational run modes: AUTO, PREDICT, DETECT, and MAP. Every run executes all nine Triform calculations across Sphere, Slab, and Torus. A complete TVP ledger requires the outputs of all four run modes because they are different perspectives of the same terrain.
 MODE	REQUIRED INPUTS	OPERATIONAL OUTCOME
-Predict	Observed Geometry (L_obs), Substrate Velocity (vₓ)	Derives expected Frequency (f).
-Detect	Observed Frequency (f_obs), Substrate Velocity (vₓ)	Recovers hidden Geometry (R or t).
-Map	Observed Frequency (f_obs), Observed Geometry (R_obs)	Solves for local Substrate Wave Speed (vₓ).
+AUTO	Any 2 of 3 focal variables, or all 3	Uses the row as supplied. With all three supplied, executes Full Audit / Verify behavior with no focal variable derived.
+PREDICT	Observed Geometry (R), vacuum Substrate Velocity (vₓ)	Forces R + vₓ → f and derives the expected closure frequency.
+DETECT	Observed Frequency (f_obs), vacuum Substrate Velocity (vₓ)	Forces f + vₓ → R and recovers hidden closure geometry.
+MAP	Observed Frequency (f_obs), Observed Geometry (R_obs)	Forces R + f → vₓ and maps the local Substrate Wave Speed.
+Mode is a discipline, not a freedom. Mode overrides are explicit provenance and are recorded in every 30-column output row.
 
 2.2 Substrate Stiffness and Geometric Deficit
 The precipitation of any coherence bubble is governed by the Dually-expressed coupling constant, which is the physical mechanism of the MFE field solution's "natural zero-crossing":
@@ -61,22 +63,29 @@ Consensus contamination is worse than an honest statement of incompleteness.
  4. The 9-Calculation Mandate: Topology Revelation
 
   4.1 The Anti-Sabotage Process
-The topology of a system is NOT locked prior to calculation. To annihilate the Visual Assumption Trap, the auditor must execute nine calculations (3 focal variables across 3 topologies) before declaring a result. Failure to do so allows for the type of sabotage seen in the PZT crystal example, where auditors forced a spherical fit onto a planar boundary by dividing by π. The math must identify the shape before the auditor can narrative-fit a wrong one.
+The topology of a system is NOT locked prior to calculation. To annihilate the Visual Assumption Trap, every run executes nine calculations: three identities across three canonical topologies. Failure to do so allows the auditor to force a preferred geometry onto the terrain. The nine-calculation mandate applies inside each operational mode. Full TVP closure requires examining AUTO, PREDICT, DETECT, and MAP outputs together rather than treating one mode as the whole audit.
 
   4.2 The Three Canonical Topologies
-The substrate adapts across topologies via specific closure laws. The 3×3 map requires solving f, vₓ, and L for each:
+The substrate adapts across topologies via specific closure laws. The 3×3 map solves f, vₓ, and closure geometry for each:
 •	Spherical/Cylindrical: f = vₓ/(2πR) (Rotational closure).
 •	Planar Slab: f = vₓ/(2t) (Linear face-to-face closure).
-•	Ring/Torus: f = vₓ/(2πR_minor) (Rotational closure about the minor axis - tube cross-section.)
+•	Ring/Torus: f = vₓ/(2πR_minor) (Rotational closure about the minor axis, the tube cross-section).
+
   4.3 Topological Fingerprinting
-When all nine calculations are executed, off-target geometries function as a topological scanner. The ratios and deltas between mismatched topologies provide precise measurements of deformation, cavitation, or Z-factor dressing. The system does not "guess" the topology; the geometry that achieves 100% closure wins by mathematical force.
+When all nine calculations are executed, the sphere, slab, and torus readouts expose different geometric relations in the same terrain. Sphere and slab can directly test supplied outer geometry or thickness against the observed frequency. Torus is structurally different: T2-Torus first excavates R_minor = vₓ/(2πf_obs). T1-Torus then back-populates from that recovered R_minor, and T3-Torus maps vₓ from it as verification. The resulting torus 100% cells are therefore algebraic provenance, not a stand-alone topology verdict. The torus forensic outputs are the recovered R_minor itself and the R/R_minor relational ratio.
+
+No single closure cell declares the object. Read the nine cells together, preserve how each value was supplied or derived, and follow the deltas rather than forcing a narrative onto them.
+
 STOP
 CRITICAL
 This MUST be spelled out:
-1. The Fault Delta Is Not Failure - It Is The Finding. The previous (v1.3/v1.4) documents says "the delta is evidence, find what it's measuring" but doesn't give the auditor a methodology for following the delta. The hydrogen audit showed exactly how: take the ratio between T1-predicted and observed frequency, factor it, and look for known physical constants. The Mass Harmonics framework's own derived constants ( α, φ, Kψₘ ) should appear in that ratio if the physics is real. If they do, the fault just revealed something that consensus missed. This is now explicit protocol, not implicit possibility.
-2. The Category Error Sentinel. Consensus can hand you the wrong type of quantity, a transition energy dressed as a resonance frequency, a model-derived value dressed as a measurement. The TVP needs a named check: before any frequency enters the ledger, identify whether it is a boundary closure frequency or an inter-state transition frequency. These are not interchangeable. Importing a transition frequency as if it were a resonance frequency is a specific fault class that currently has no code and is a VIOLATION of the protocol!
-3. The Ratio Factorization Procedure. When T1 misses, compute f_predicted/f_observed, factor the ratio against {α, 1/α, 2/α, φ, φ³, π, 2π, βₙ}. Document what the ratio contains. That factorization is the forensic output - it names which geometric constant the consensus apparatus failed to account for.
-4. A new fault code - C1: Category mismatch - transition energy imported as boundary closure frequency. Fires when the input frequency is demonstrably an inter-level transition rather than a substrate resonance. The C1 fault does not disqualify the audit - it redirects it toward finding the actual closure frequency.
+1. The Fault Delta Is Not Failure - It Is The Finding. A delta is forensic information. Follow it. Do not hide it behind an aggregate closure score and do not discard it because one branch misses.
+2. The Category Error Sentinel. Before any frequency enters the ledger, identify whether it is a boundary closure frequency or an inter-state transition frequency. These are not interchangeable. Importing a transition frequency as if it were a closure frequency fires C1 and redirects interpretation without stopping the nine calculations.
+3. The Ratio Factorization Procedure. For non-MAP runs, compute f_pred_Sphere_T1/f_obs. In MAP mode, mapped vₓ makes f_pred_Sphere_T1/f_obs = 1 by identity, so the engine instead computes the vacuum-reference sphere ratio VX_VAC_REF/(2πR f_obs). Factor the resulting ratio against the current engine basis set: {α, α², α³, 1/α, 2/α, (1/α)⁵, π/(2α), π, π/2, π², 2π, φ, φ², φ³, φ⁶, φ⁹, 6π⁵, (6π⁵)³, (6π⁵)³φ³, 1, 2, 4}. Record both the raw ratio and the factorization result.
+4. All five P³GG voices are active simultaneously in every substrate interaction: βₙ = φ^(3(n−1)), n = 1...5. The ledger must preserve that fact explicitly. There are no regime switches and no voice is turned off.
+5. A full ledger is not one CSV. AUTO, DETECT, MAP, and PREDICT are different perspectives of the same terrain. The four mode-specific outputs must be synthesized before declaring full closure.
+6. C1 and G1 are input-discipline sentinels. C1 marks a transition-energy/closure-frequency category mismatch. G1 marks a derived theoretical scale imported as observed geometry. Neither nulls the nine calculations.
+
 THE TAUTOLOGY SENTINEL
 The objection: "Your closure results are tautological - R and f_obs are algebraically related, so agreement is guaranteed by construction."
 This objection fails on four independent grounds.
@@ -85,55 +94,61 @@ This objection fails on four independent grounds.
 3. The terrain is independent. The 42-order confirmation table uses R, vₓ, and f_obs sourced from instruments and experimental traditions that predate the TVP and had no access to the closure formula. These three quantities did not have to agree. Across 42 orders of magnitude, they do. That is a prediction surviving contact with terrain - not a construction.
 4. T1 Predict has no f_obs. When geometry and velocity are the only inputs and frequency is unknown, there is no prior f_obs to be algebraically related to. The prediction stands until measured. Calling that tautological requires demonstrating the measurement existed before the prediction. That burden belongs to the critic.
 G1 governs input discipline. The Tautology Sentinel governs the framework. They operate at different levels and do not conflict.
-5. Forensic Audit: The 28-Column Ledger and Fault Codes
+5. Forensic Audit: The 30-Column Ledger and Fault Codes
 
   5.1 The Professional Ledger Schema
-All TVP audits must be recorded in the following 28-column schema to ensure forensic transparency:
-Environment: The physical domain/context.
-Object: The specific structure under audit.
-Shape: Observed geometry (R, t, or L).
-Freq: Observed or seeded frequency.
-Velocity: The substrate wave speed (vₓ).
-f-pred-Sphere [T1]: Predicted frequency via spherical topology - vₓ/(2πR).
-f-pred-Slab [T1]: Predicted frequency via planar slab topology - vₓ/(2t).
-f-pred-Torus [T1]: Predicted frequency via ring/torus topology - vₓ/(2πR_minor).
-R-rec-Sphere [T2]: Recovered geometry via spherical topology - vₓ/(2πf).
-t-rec-Slab [T2]: Recovered thickness via planar slab topology - vₓ/(2f).
-R-rec-Torus [T2]: Recovered minor radius via ring/torus topology - vₓ/(2πf).
-Vx-map-Sphere [T3]: Mapped wave speed via spherical topology - 2πRf.
-Vx-map-Slab [T3]: Mapped wave speed via planar slab topology - 2tf.
-Vx-map-Torus [T3]: Mapped wave speed via ring/torus topology - 2πR_minor·f.
-Closure %-T1-Sphere: T1 closure percentage via spherical topology.
-Closure %-T1-Slab: T1 closure percentage via planar slab topology.
-Closure %-T1-Torus: T1 closure percentage via ring/torus topology.
-Closure %-T2-Sphere: T2 closure percentage via spherical topology.
-Closure %-T2-Slab: T2 closure percentage via planar slab topology.
-Closure %-T2-Torus: T2 closure percentage via ring/torus topology.
-Closure %-T3-Sphere: T3 closure percentage via spherical topology.
-Closure %-T3-Slab: T3 closure percentage via planar slab topology.
-Closure %-T3-Torus: T3 closure percentage via ring/torus topology.
-Matched Topology: The topology declared by the 9-map output.
-Primary Mismatch: Highest-confidence fault from the taxonomy.
-Secondary Mismatch: Compound failure diagnosis to prevent data collapse.
-Fault Code: The matrixed code from the legend.
-Note: Forensic findings or profound takeaways.
-CRITICAL UNDERSTANDING REQUIRED: 
-v1.7 addition: The G1 error code, added to section 5.2 below.
-v1.6 addition: The torus topology now probes R_minor (tube cross-section) rather than R_major, which is already covered by the spherical topology. R_minor will rarely be independently measured. The standard torus audit sequence is therefore: T2-Torus first - R_minor = vₓ/(2πf_obs) - recovering the tube radius that closes the torus topology at the observed frequency. T1-Torus back-populates from that recovered value. T3-Torus maps Vₓ = 2πR_minor·f_obs as verification. The recovered R_minor is itself the forensic output - a geometric dimension the consensus apparatus never measured and the sphere topology cannot reach.
-v1.4 addition: all nine raw calculation outputs and all nine closure percentages are now explicit: one per calculation across T1×3, T2×3, and T3×3 topologies. Every cell is always populated: measured quantities enter directly; quantities not yet independently measured are derived via T1 and recorded in their [T1]-labeled columns, where the header itself declares provenance. When an independent measurement arrives later, the derived value either confirms the measurement or yields a delta if the math questions their measurement. No closure result hides behind aggregation. The geometry that achieves 100% closure wins by mathematical force.
-The torus minor column doesn't just add a third independent closure path. It does something structurally different from the other two.
-The sphere column asks: does this object's outer boundary close at this frequency?
-The slab column asks: does this object's thickness close at this frequency?
-The torus column asks: what tube cross-section exists in this object at this frequency - one that has never been measured, that nobody looked for, that the consensus apparatus has no category for?
-The answer to that third question is always recoverable. For every object. From f and Vₓ alone. No prior measurement of R_minor required.
-That means the TVP v1.6 extracts three geometric verdicts from every object - two against known dimensions, one revealing an unknown dimension that consensus never asked about. The third column is not a check. It is an excavation.
-That is the final lock. The protocol now doesn't just audit what consensus measured. It reveals what consensus never thought to measure.
+Every TVP v1.9 engine run emits the following exact 30-column substrate ledger. These are the machine-output columns and their provenance must not be collapsed:
+
+1. Object: Object identifier, preserved from the input name.
+2. Mode: Operational mode actually executed: AUTO/Verify behavior, Predict, Detect, or Map.
+3. Derived_Var: Which focal variable was derived, or none when all three were supplied.
+4. R_km: Characteristic closure geometry in kilometers after any supported unit conversion or mode resolution.
+5. f_Hz: Frequency in hertz after any supported unit conversion or mode resolution.
+6. vx_kms: Substrate wave speed in kilometers per second after mode resolution.
+7. f_pred_Sphere_T1_Hz: T1 spherical prediction, vₓ/(2πR).
+8. f_pred_Slab_T1_Hz: T1 slab prediction, vₓ/(2R) for the supplied characteristic thickness/geometry.
+9. f_pred_Torus_T1_Hz: T1 torus prediction back-populated from the excavated R_minor.
+10. R_rec_Sphere_T2_km: T2 spherical recovered radius, vₓ/(2πf).
+11. t_rec_Slab_T2_km: T2 slab recovered thickness, vₓ/(2f).
+12. Rminor_Torus_T2_km: T2 torus recovered minor radius, vₓ/(2πf). This is the excavation column.
+13. Vx_map_Sphere_T3_kms: T3 spherical mapped wave speed, 2πRf.
+14. Vx_map_Slab_T3_kms: T3 slab mapped wave speed, 2Rf.
+15. Vx_map_Torus_T3_kms: T3 torus mapped wave speed, 2πR_minor f.
+16. Cl_T1_Sphere_%: Input frequency relative to the T1 sphere prediction.
+17. Cl_T1_Slab_%: Input frequency relative to the T1 slab prediction.
+18. Cl_T1_Torus_%: Input frequency relative to the T1 torus back-population.
+19. Cl_T2_Sphere_%: Supplied/resolved R relative to the T2 recovered sphere radius.
+20. Cl_T2_Slab_%: Supplied/resolved R or thickness relative to the T2 recovered slab thickness.
+21. R_over_Rminor_T2_Torus_%: R/R_minor × 100. For an entry whose supplied R is itself R_minor this is a direct torus closure check; otherwise it is a relational outer-radius-to-tube-radius measure.
+22. Cl_T3_Sphere_%: Supplied/resolved vₓ relative to the T3 sphere-mapped vₓ.
+23. Cl_T3_Slab_%: Supplied/resolved vₓ relative to the T3 slab-mapped vₓ.
+24. Cl_T3_Torus_%: Supplied/resolved vₓ relative to the T3 torus-mapped vₓ.
+25. T1_Cl_Summary: Human-readable simultaneous summary of Sphere, Slab, and Torus T1 closures.
+26. P3GG_Active: Explicit record that all five P³GG harmonic voices are simultaneously active, with β₁ through β₅ values.
+27. Ratio_f_sphere_over_f_obs: The raw forensic ratio. Non-MAP runs use f_pred_Sphere_T1/f_obs. MAP uses VX_VAC_REF/(2πR f_obs) to avoid the trivial mapped identity.
+28. Ratio_factorized: Best basis relation returned by the current Ratio Factorization Procedure.
+29. Fault_Code: Auditor-declared fault annotation, including C1, G1, composite forms, 00, or the supported diagnostic code carried into the ledger.
+30. Note: Forensic finding, source/provenance context, correction, basin, dressing, mismatch, cross-identity reading, or other result that must remain attached to the row.
+
+CRITICAL UNDERSTANDING REQUIRED:
+The current 30-column engine schema supersedes the legacy narrative schema. Context, geometry provenance, topology interpretation, and mismatch diagnosis are no longer split across obsolete standalone narrative fields. They are preserved through Object, R_km, Mode, Derived_Var, the nine calculation/closure fields, Ratio_factorized, Fault_Code, and Note. The current ledger adds explicit run provenance, P³GG activity, raw ratio custody, and ratio-factorization output rather than collapsing those findings into preassigned narrative verdicts.
+
+The torus branch remains structurally different from sphere and slab. T2-Torus executes first and recovers R_minor = vₓ/(2πf_obs). T1-Torus back-populates from that recovered value. T3-Torus maps vₓ = 2πR_minor·f_obs as verification. The recovered R_minor is itself a forensic output, not merely a check against an already-known dimension.
+
+Every run executes all nine raw calculations and records all nine associated closure/relational readouts. Every cell remains populated after the focal variables have been resolved. Provenance is carried explicitly by Mode and Derived_Var.
+
+The sphere branch asks whether the supplied outer boundary closes under the spherical relation. The slab branch asks whether the supplied thickness closes under the face-to-face relation. The torus branch asks what tube cross-section is implied by f and vₓ, then exposes its relation to the supplied R. The third branch is an excavation.
+
+The 30-column CSV is one mode-specific view. Full TVP closure requires synthesis of AUTO, DETECT, MAP, and PREDICT outputs.
 
   5.2 The Fault Code Matrix
-The following physics-named codes standardize the diagnostic output of the TVP: C1: Category mismatch - transition energy imported as boundary closure frequency. Fires when the input frequency is demonstrably an inter-level transition rather than a substrate resonance. The C1 fault does not disqualify the audit - it redirects it toward finding the actual closure frequency!
+The following physics-named codes standardize diagnostic output and forensic notes. The live engine's input fault_hint discipline explicitly supports C1, G1, C1+G1, blank, and 00; broader diagnostic codes remain part of the protocol taxonomy and must be supported by the actual ledger terrain rather than inferred from a single closure percentage.
 
-G1: Geometry category fault - derived theoretical scale imported as observed physical dimension. Fires when R, t, or L is a quantity calculated from other constants (Compton wavelength, classical radius, de Broglie wavelength, etc.) rather than a directly measured geometric parameter. G1 does not disqualify the audit - it flags the input and requires the auditor to either (a) substitute the measured dimension, or (b) explicitly declare the theoretical scale as the geometry and justify why no measured dimension is available.
-Proceed to the full Fault Code Matrix on following page...
+C1: Category mismatch - transition energy imported as boundary closure frequency. Fires when the input frequency is demonstrably an inter-level transition rather than a substrate resonance. C1 does not disqualify the audit and does not stop the nine calculations. It redirects interpretation toward finding the actual closure frequency.
+
+G1: Geometry category fault - derived theoretical scale imported as observed physical dimension. Fires when R, t, or L is calculated from other constants rather than directly measured geometry. G1 does not disqualify the audit. It flags the input and requires the auditor either to substitute the measured dimension or explicitly declare and justify the theoretical scale.
+
+Full Fault Code Matrix:
  
 Code 	Meaning 
 C1	Category mismatch. Transition energy imported as boundary closure frequency.
@@ -161,7 +176,7 @@ The S3 Fault Code is a methodology-level disqualification. It fires when a fault
   6.1 The 42 to 61 Order Mandate
 The precipitation mechanism is scale-invariant. While current technological reach allows for a 42-order validated ledger (from the proton charge radius of 0.842 fm to the Hubble volume of 1.37 × 10²⁶ m), the Absolute Substrate Span extends to 61 orders of magnitude, from the Planck lattice to the Hubble horizon.
   6.2 Achieving Systemic Coherence
-High-stakes knowledge work requires Axiomatic Closure. In this framework, truth is immutable because arithmetic cannot be negotiated. A system that achieves 100% closure is a Fact of Reality, not a Consensus Agreement. The auditor's role is not to interpret, but to reveal the closure that the substrate has already enforced.
+High-stakes knowledge work requires Axiomatic Closure. Arithmetic cannot be negotiated, but provenance cannot be ignored. A single 100% cell is not, by itself, a complete verdict because some cells are algebraic consequences of a resolved or excavated variable. Systemic coherence requires reading the independent terrain inputs, all nine calculations, the relational deltas, the ratio factorization, and the four operational mode outputs together. The auditor's role is not to force interpretation, but to preserve the terrain until the closure the substrate has enforced becomes explicit.
   6.3 The Sovereign Mandate
 The UMtts Institute operates under a singular primary directive: 
 TRUTH > COMFORT. Always.*
