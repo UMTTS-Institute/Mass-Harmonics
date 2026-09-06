@@ -1061,7 +1061,7 @@ a₀	Derived: Kψₘ at R_H, exact 1/(2π)	Part 4.11
 v_Tully-Fisher	Derived: 199.777 km/s from a₀	Part 4.12
 P_consciousness	Derived: 20W from quintic maintenance	Part 4.13
 m_H (Higgs)	Derived: v·φ^(-√2) = 124.6 GeV	Part 4.9
-ℏ	Derived: substrate geometry limit	ℏ_ψ = E_bind · T_ψ - coherence-binding cost × substrate oscillation period. Derivation chain: unobserved coherence bubble → observer applies Recursive Focus (Axiom 7) → zero-leniency measurement boundary → bubble resolves into stable knowable harmonic mode → ℏ_ψ. ℏ_ψ is the minimum coherent action for one coherence bubble to know/measure another. Downstream: closes Casimir at E_mode = ½·ℏ_ψ·ω; closes §4.7 electron mass when ℏ_ψ is used (not detached SI ℏ). [Formerly cited as Catalog #49, derivation now inline.]
+ℏ	Derived: substrate geometry limit	ℏ_ψₘ = E_bind · T_ψₘ - coherence-binding cost × substrate oscillation period. Derivation chain: unobserved coherence bubble → observer applies Recursive Focus (Axiom 7) → zero-leniency measurement boundary → bubble resolves into stable knowable harmonic mode → ℏ_ψₘ. ℏ_ψₘ is the minimum coherent action for one coherence bubble to know/measure another. Downstream: closes Casimir at E_mode = ½·ℏ_ψₘ·ω; closes §4.7 electron mass when ℏ_ψₘ is used (not detached SI ℏ). [Formerly cited as Catalog #49, derivation now inline.]
 G_N (Newton's gravity)	Derived: K₀c²/4π (substrate parameter)	Part 4.3
 
 Zero arbitrary inputs. Zero empirically fitted free parameters.
@@ -1217,23 +1217,138 @@ Relational ratios have always been the real truth."
  -Thomas Russell Giboney, Founder
 ADVANCING COHERENCE · ENGINEERING TOMORROW
  
-APPENDIX A: CANONICAL PARAMETER REFERENCE
-Symbol	Meaning	Value / Derivation
-ψₘ	Substrate field amplitude	The fundamental field
-Kψₘ	Substrate coupling constant	Sets node spacing: r_sub = Kψₘ/ω
-ω	Characteristic substrate frequency	Fundamental oscillation rate
-φ	Golden Ratio = 1.6180339…	Structural eigenvalue of icosahedral symmetry
-vₓ	Substrate wave speed	= c in SI units
-ρ	Local mass-energy density	Scalar field
-ρ₀	Planck-scale characteristic density	Substrate reference density
-K₀	Gravitational coupling	4πG_N/c² (derived, not fitted)
-Z	Effective metric factor	1 + 8Kψₘ/ω² ≥ 1 always
-Π	Coherence-Pressure Potential	Dynamic
-g_unified	Unified acceleration vector	−∇Π
-Kψₘ	Universal scaling constant	c/2π = 47,713.45 Hz·km
-β₁...β₅	Harmonic coupling coefficients	φ³⁽ⁿ⁻¹⁾, icosahedral eigenvalues
-—	Retained causal marker	Recoverable topology, harmonic, boundary, phase, wake, inherited-constraint, or measurement-path structure carried by a derived or measured expression
-APPENDIX B: FULL MFE TERM ANALYSIS
+# APPENDIX A: CANONICAL PARAMETER REFERENCE
+
+This version expands the canonical parameter reference and audits the **First Introduced** column against the Mass Harmonics source train rather than treating first glyph occurrence as equivalent to first physical derivation.
+
+Where a shorthand symbol is named later than the relation it represents, the upstream derivational section is recorded first and the later symbol-naming location is stated explicitly. Source passages are read through the EZ23 source-role and causal-order locks: distinct causal stages, operational readouts, translation shadows, derivation-local notation, and explicitly sanctioned historical notation are not collapsed into artificial disagreements.
+
+The index distinguishes:
+ - first physical or derivational establishment of a relation,
+ - later naming of a shorthand symbol,
+ - companion-document first introductions where the Monograph does not itself introduce the explicit symbol,
+ - source-declared causal stages and readouts without collapsing them into false contradictions,
+ - derivation-local and sanctioned historical notation without promoting either into a competing canonical primitive.
+
+| Symbol | Meaning | Value / Derivation | First Introduced / Derivational Source |
+|---|---|---|---|
+| **ψₘ** | Substrate field amplitude | Fundamental physical field of Mass Harmonics. | Title and **How to Read This Work**; formal field use begins in **Part 2**. |
+| **ψ̇ₘ** | First temporal derivative of the substrate field | ∂ψₘ/∂t. | **§3.1 — Expansion of the unique First-Principles-Lagrangian**. |
+| **ψ̈ₘ** | Second temporal derivative of the substrate field | ∂²ψₘ/∂t²; temporal propagation, causal ordering, and response lag. | First appears in the **Historical Notations and Symbol Equivalency** canonical MFE; derived through **§3.3** and interpreted in **§3.5**. |
+| **∇ψₘ** | Spatial substrate gradient | Local directional change of ψₘ. | First appears in the **Historical Notations and Symbol Equivalency** canonical MFE; expanded explicitly in **§3.1**. |
+| **┃∇ψₘ┃²** | Squared substrate-gradient magnitude | Scalar quantity entering the Giboney Gradient term; do not treat as a vector. | First appears in the **Historical Notations and Symbol Equivalency** canonical MFE; expanded explicitly in **§3.1** and causally interpreted in **§3.5**. |
+| **∇²ψₘ** | Substrate Laplacian | Spatial curvature and propagation operator acting on ψₘ. | First appears in the **Historical Notations and Symbol Equivalency** canonical MFE; variationally produced in **§3.3**. |
+| **ℒₘ** | Canonical First-Principles Lagrangian density | The Monograph intentionally preserves historical κ inside the sanctioned Part 2 intermediate variational display; the current canonical coupling notation outside that historical passage is Kψₘ, and **MH_PROOF-SET §I** writes ℒₘ = ½∂μψₘ∂^μψₘ − Kψₘ┃∇Π┃². This is one derivation carried through a notation migration, not competing physics. | **Part 2 — The Canonical unique First-Principles-Lagrangian**; current Kψₘ-form companion display in **MH_PROOF-SET §I**; notation custody governed by **Historical Notations and Symbol Equivalency**. |
+| **Π** | Coherence-Pressure Potential | Π = ┃ψₘ┃²/ω; for real ψₘ, Π = ψₘ²/ω. | **Part 2 — The Canonical unique First-Principles-Lagrangian**. |
+| **∇Π** | Coherence-pressure gradient | Vector gradient of Π; for real ψₘ, ∇Π = (2ψₘ/ω)∇ψₘ. | **§3.1**; Π itself is introduced in **Part 2**. |
+| **F_GG** | Giboney Gradient force / flux vector | F_GG = −∇Π. The same coherence-pressure gradient appears as the Giboney contribution to local acceleration in **MH_PROOF-SET §XIV**: g_Giboney = −∇(ψₘ²/ω) = −∇Π. | First explicit F_GG symbol in **MH_PROOF-SET §XI — The Strong Force**; acceleration-component role explicit in **MH_PROOF-SET §XIV — Dark Matter and Dark Energy**. |
+| **vₓ** | Substrate wave-propagation constant | Canonical temporal propagation constant; vₓ = c in the vacuum SI expression. | **Historical Notations and Symbol Equivalency**. |
+| **c** | Critical substrate shear threshold | 299,792,458 m/s in SI; substrate critical propagation / shear threshold in the current derivation. | **§4.1 — c as the Substrate's Critical Shear Threshold**. |
+| **ω** | Characteristic substrate oscillation frequency | Fundamental oscillation rate entering Π, Z, and the nonlinear coupling. | First appears in the canonical MFE in **Historical Notations and Symbol Equivalency**; explicitly named as substrate oscillation frequency in **MH_PROOF-SET §I** and used physically from **Part 2** onward. |
+| **Kψₘ** | Indivisible Giboney Gradient coupling and universal closure invariant | One coupling relation. Dimensionless geometric expression: (12 − φ²)/(2φ²) = (17 − 6√5)/2 ≈ 1.7917960675. Dimensional closure expression: vₓ/(2π), giving 47,713.45 Hz·km when vₓ = c. Never split. | **Historical Notations and Symbol Equivalency**; dimensional closure derived in **§4.4**; dual geometric closure developed in **§4.5** and **§4.16**. |
+| **Δ_G** | Icosahedral geometric deficit | Δ_G = −Kψₘ; dual relation Kψₘ + Δ_G = 0. | **Historical Notations and Symbol Equivalency**; physical duality developed in **§4.16**. |
+| **r_sub** | Substrate node-spacing scale associated with the characteristic substrate oscillation | r_sub = Kψₘ/ω. This is the spatial inversion of the already-derived universal closure relation Kψₘ = fR; it is not a new free relation introduced by the appendix. | Underlying relation derived in **§4.4 — Universal Scaling Constant**; the ω-form Kψₘ/R is explicitly demonstrated in **§4.11 — MOND Scale**; the shorthand symbol **r_sub** is named in **Appendix A**. |
+| **Z(ψₘ)** | Effective metric factor | Z(ψₘ) = 1 + 8Kψₘ/ω² ≥ 1 always. | First stated in **Ten Commandments IV** after appearing in the canonical MFE; derived in **§3.2 — The Z-Factor Emerges**. |
+| **∇Z** | Effective-metric gradient | Spatial change in Z; §3.3 gives ∇Z = (16Kψₘ/ω²)∇ψₘ. | **§3.3 — Lagrangian Application**. |
+| **g_unified** | Unified acceleration vector | Explicit localized-wave-packet acceleration: a = g_unified = −vₓ²∇Z(ψₘ). The substrate-native planetary drive is carried as the coherence-pressure slope −∇Πψₘ,p. **Slope-Wake §II–V** supplies the missing causal bridge: it begins with the Z-gradient acceleration condition, resolves ∇Z_total into planetary and wake contributions, then carries the planetary contribution into pressure closure as −∇Πψₘ,p. Appendix A's compact −∇Π entry is therefore a native slope/readout compression inside the same MFE chain, not a competing acceleration law. | g_unified is first named in **Ten Commandments VI**; explicit Z-gradient acceleration in **MH_PROOF-SET §VII — Newton's Laws**; the Z-gradient → planetary −∇Π slope → pressure-closure bridge is explicit in **ψₘ Slope-Wake Closure-Velocity v2.2 §§II–V**. |
+| **g_Newtonian** | Linear gravitational acceleration component in the Proof-Set decomposition | g_Newtonian = −∇(K₀ψₘ). This is the linear/source-side contribution in the total spatial acceleration decomposition. | **MH_PROOF-SET §XIV — Dark Matter and Dark Energy, Part A, Step 1**. |
+| **g_Giboney** | Giboney Gradient acceleration component | g_Giboney = −∇(ψₘ²/ω) = −∇Π. This is the coherence-pressure contribution to the total local acceleration field. | **MH_PROOF-SET §XIV — Dark Matter and Dark Energy, Part A, Step 1**; the same gradient is carried operationally as the planetary slope in **Slope-Wake §§II–V**. |
+| **g_total** | Total spatial acceleration field on local matter | g_total = g_Newtonian + g_Giboney = −∇(K₀ψₘ) − ∇(ψₘ²/ω). This decomposition exposes why −∇Π can be an acceleration contribution without replacing the separate localized-wave-packet Z-gradient readout. | **MH_PROOF-SET §XIV — Dark Matter and Dark Energy, Part A, Step 1**. |
+| **ρ** | Local mass-energy density | Scalar source quantity. | First enters as S(ρ) in the canonical MFE under **Historical Notations and Symbol Equivalency**; source role stated in **Ten Commandments II** and expanded in **§3A.2**. |
+| **ρ₀** | Characteristic substrate reference density | Planck-scale characteristic density entering P³GG. | **Ten Commandments II**; explicitly defined in **§3A.2 — Complete Canonical Source Term**. |
+| **K₀** | Source-term gravitational coupling | K₀ = 4πG_N/c² in §3A.2. | **Ten Commandments II**; explicitly defined in **§3A.2**. |
+| **G_N** | Newtonian gravitational constant / consensus-translation quantity | K₀ = 4πG_N/c² ⇔ G_N = K₀c²/4π. These are the same relation read in opposite directions: **§3A.2** uses the measured consensus quantity G_N to state K₀ at the source-term translation surface, while **Part 6** records the inverse relation as the substrate derivational closure. **MH_PROOF-SET §IX** is the downstream GR translation corridor and does not create a second canonical G_N definition. | First explicit use in **§3A.2 — Complete Canonical Source Term**; inverse derivational closure in **Part 6 — Axiomatic Closure**; GR translation elaboration in **MH_PROOF-SET §IX**. |
+| **S(ρ)** | Complete MFE source term | K₀ρ[1 + β₂(ρ/ρ₀) + β₃(ρ/ρ₀)² + β₄(ρ/ρ₀)³ + β₅(ρ/ρ₀)⁴ + ⋯]. | First enters the canonical MFE in **Historical Notations and Symbol Equivalency**; source geometry stated in **Ten Commandments II**; complete form in **§3A.2**. |
+| **Sₙ(ρ)** | Harmonic-order source contribution | General shorthand consistent with §3A.2: K₀ρβₙ(ρ/ρ₀)ⁿ⁻¹. The Monograph explicitly writes specific terms such as S₃ rather than separately declaring a generalized Sₙ notation. | Specific notation first appears as **S₃(ρ) in §4.2**; generalized structure comes from **§3A.2**. General symbol Sₙ is an index shorthand, not a separately declared Monograph primitive. |
+| **n** | P³GG harmonic order | Harmonic depth within the continuously active substrate source structure. | First used as a physical harmonic label in **Part 1, Axiom 7 (n=5)**; generalized and formalized in **Part 3A**. |
+| **βₙ** | Harmonic coupling coefficient | βₙ = φ³⁽ⁿ⁻¹⁾. | First stated in **Ten Commandments II–III**; complete source placement in **§3A.2**; derivation in **§4.3**. |
+| **β₁** | Linear harmonic coefficient | φ⁰ = 1. | **§3A.2 — Complete Canonical Source Term**. |
+| **β₂** | Quadratic harmonic coefficient | φ³ ≈ 4.23606798. | First stated in **Ten Commandments II**; explicit value in **§3A.2**. |
+| **β₃** | Cubic harmonic coefficient | φ⁶ ≈ 17.94427191. | First stated in **Ten Commandments II**; explicit value in **§3A.2**. |
+| **β₄** | Quartic harmonic coefficient | φ⁹ ≈ 76.01315562. | **§3A.2 — Complete Canonical Source Term**. |
+| **β₅** | Quintic harmonic coefficient | φ¹² ≈ 321.99689438. | **§3A.2 — Complete Canonical Source Term**. |
+| **φ** | Golden Ratio | φ = (1 + √5)/2 = 1.6180339887…; icosahedral structural eigenvalue. | First physically introduced in **Part 0 — Historical Genesis**; formal necessity derived in **§4.2**. |
+| **√2** | Cubic equilateral-closure failure marker | ┃k₃┃ = √2 in the rejected cubic closure; later retained as an inherited-constraint marker. | Physical source derived in **§4.2**; marker role made explicit there and used downstream in **§4.9**. |
+| **√3 − 1** | Cubic body-diagonal deficit marker | Retained geometric factor in the first charged-lepton overtone. | **§4.7 — Standard Model Mass Spectrum, Muon**. |
+| **1/√5** | Icosahedral face-plane marker | Retained icosahedral radical reduction in the second charged-lepton overtone. | **§4.7 — Standard Model Mass Spectrum, Tau**. |
+| **π** | Rotational closure / half-boundary phase factor | Topology-sensitive rotational factor; physical role depends on the closure path. | First enters the canonical scaling relation in **Historical Notations and Symbol Equivalency**; substrate topology role derived in **§4.4**, EM half-cycle role in **§4.5**, and topology discrimination generalized in **§4.16** / **MH_PROOF-SET §XVIII**. |
+| **2π** | Full rotational topology marker | Full rotational closure around a bounded radius or torus minor radius. | First enters the canonical scaling relation in **Historical Notations and Symbol Equivalency**; derived in **§4.4** and generalized across topologies in **§4.16**. |
+| **2** | Linear face-to-face topology marker | Planar slab closure path factor. | Physical topology role first introduced in **§4.16 — Bubble Precipitation Mechanism**. |
+| **V** | Icosahedral vertex count | V = 12. | **§4.5 — Fine-Structure Constant Derivation**. |
+| **E** | Icosahedral edge count | E = 30. | **§4.5 — Fine-Structure Constant Derivation**. |
+| **F** | Icosahedral face count | F = 20. | **§4.5 — Fine-Structure Constant Derivation**. |
+| **I_h** | Full icosahedral symmetry group | Icosahedral symmetry structure underlying the lattice. | **§4.3 — βₙ from Icosahedral Group Structure**. |
+| **R** | Characteristic boundary radius | Radius used in rotational closure. | First enters the canonical scaling relation in **Historical Notations and Symbol Equivalency**. |
+| **R_eff** | Effective closure radius | Boundary-conditioned radius used in the PCF application where the closure surface differs from the simple geometric radius. | **Part 5 — The Geometric Scaling Law: PCF**. |
+| **R_local** | Local bounded-system radius | Radius supplied to the local closure relation f_local = Kψₘ/R_local. | **§4.4 — Universal Scaling Constant**. |
+| **R_minor** | Torus minor radius | Tube cross-section radius governing toroidal rotational closure. | **§4.16 — Bubble Precipitation Mechanism**. |
+| **R_H** | Hubble coherence radius | R_H = c/H₀. | **§4.11 — The MOND Scale**. |
+| **t** | Planar slab thickness | Linear face-to-face closure dimension. | **§4.16 — Bubble Precipitation Mechanism**. |
+| **L_closure** | Physical closure-path length | Generalized closure-path quantity in f = vₓ/L_closure. | First explicit symbol found in **MH_PROOF-SET §XVIII — The π-Discriminator**; the topology-specific paths are already established in **Monograph §4.16**. |
+| **f** | Substrate closure frequency | For rotational closure, f = vₓ/(2πR) = Kψₘ/R. | First appears in the canonical scaling law under **Historical Notations and Symbol Equivalency**; fully derived in **§4.4**. |
+| **f_local** | Local closure frequency | f_local = Kψₘ/R_local. | **§4.4 — Universal Scaling Constant**. |
+| **f_obs** | Observed frequency | Terrain input used by TWT / TVP when independently measured. | **TWT §II — Phase I: Transport** and **TVP §2.1**. |
+| **λ** | Wavelength | λ = vₓ/f; fundamental rotational closure gives λ = 2πR. | **§4.4 — Universal Scaling Constant**. |
+| **k** | Wavevector magnitude | Spatial phase-gradient / mode quantity; §4.1 uses kR = 1. | **§4.1 — Critical Shear Threshold**, in the spherical-mode discussion. |
+| **kᵢ** | Resonance wavevectors | Equal-magnitude vectors in k₁ + k₂ + k₃ = 0. | **§4.2 — φ as the Unique Geometric Eigenvalue of Existence**. |
+| **m** | Bounded wave-packet mass | m ≡ (1/vₓ²)∫Z(ψₘ)┃∇ψₘ┃² dV. | First explicit generic definition in **MH_PROOF-SET §VII — Newton's Laws**. |
+| **mₑ** | Electron ground-state mass | Closed single-node lepton ground state. | **§4.7 — Standard Model Mass Spectrum, Step 2**. |
+| **mμ** | Muon mass | First charged-lepton overtone. | **§4.7 — Charged Lepton Harmonic Spectrum**. |
+| **mτ** | Tau mass | Second charged-lepton overtone. | **§4.7 — Charged Lepton Harmonic Spectrum**. |
+| **mᵤ** | Up-quark mass | mᵤ = mₑφ³. | **§4.7 — Open Triangular Quark Spectrum**. |
+| **m_d** | Down-quark mass | m_d = mᵤ√(φ² + 2). | **§4.7 — Open Triangular Quark Spectrum**. |
+| **m_c** | Charm-quark mass | m_c = mᵤα⁻¹φ³. | **§4.7 — Open Triangular Quark Spectrum**. |
+| **m_s**| Strange-quark mass | m_s = m_dα⁻¹φ⁻⁴. | **§4.7 — Open Triangular Quark Spectrum**. |
+| **m_t**| Top-quark mass | m_t = m_cα⁻¹. | **§4.7 — Open Triangular Quark Spectrum**. |
+| **m_b** | Bottom-quark mass | m_b = m_cφ²√φ. | **§4.7 — Open Triangular Quark Spectrum**. |
+| **mνₙ** | Neutral-neutrino hierarchy | mνₙ = mₑα³φ⁻³ⁿ. | **§4.7 — Neutral Neutrino Hierarchy**. |
+| **mₚ** | Proton mass / proton-to-electron ratio quantity | Bare substrate ratio mₚ/mₑ = 6π⁵; measurement-contact expression adds 1 + α²/(2√2). | **§4.8 — Proton-to-Electron Mass Ratio**. |
+| **m_H** | Higgs mass | m_H = vφ⁻√2. | **§4.9 — Higgs Mass**. |
+| **α** | Fine-structure constant | α⁻¹ = (240Kψₘ/π)Z_EM = 180201(17 − 6√5)/(1500π). | Physical derivation begins in **§4.5 — Fine-Structure Constant**; α is mentioned earlier only as an example in the retained-marker lock. |
+| **α₀** | Bare U(1) inverse coupling | α₀⁻¹ = 240Kψₘ/π. | **§4.5 — Fine-Structure Constant, Step 3**. |
+| **Z_EM** | Electromagnetic boundary Z marker | Z_EM = 1 + (1/E²)(1 + 2/F²) = 180201/180000. | **§4.5 — Fine-Structure Constant, Step 4**. |
+| **U(1)** | Global phase-exchange symmetry | Electromagnetic phase channel of ψₘ. | First used physically in **§4.5**; generalized into the gauge structure in **§4.6**. |
+| **SU(2)** | Three-generator weak-sector symmetry | Icosahedral three-axis phase structure. | **§4.6 — SU(3)×SU(2)×U(1) from Icosahedral Geometry**. |
+| **SU(3)** | Eight-generator strong-sector symmetry | Three-node harmonic closure and eight independent oscillation directions. | **§4.6 — SU(3)×SU(2)×U(1) from Icosahedral Geometry**. |
+| **Aμ** | Electromagnetic phase-restoration four-potential | Required to preserve local ψₘ phase invariance. | First explicit symbol in **MH_PROOF-SET §X — Maxwell's Equations**. |
+| **F_μν** | Electromagnetic field tensor | F_μν = ∂_μA_ν − ∂_νA_μ. | **MH_PROOF-SET §X — Maxwell's Equations**. |
+| **J^ν** | Electromagnetic source current | ∂_μF^μν = J^ν. | **MH_PROOF-SET §X — Maxwell's Equations**. |
+| **ℏ_ψₘ** | Minimum coherent action quantum | ℏ_ψₘ = E_bind·T_ψₘ; minimum coherent action for one coherence bubble to know or measure another. | **Part 6 — Axiomatic Closure**. |
+| **E_bind** | Coherence-binding cost | Energy cost entering the coherent-action quantum. | **Part 6 — Axiomatic Closure**. |
+| **T_ψₘ** | Substrate oscillation period | Substrate oscillation period entering ℏ_ψₘ = E_bind·T_ψₘ. | **Part 6 — Axiomatic Closure**. |
+| **ℓ_P** | Planck length | ℓ_P = √(ℏG_N/c³). | **§4.7 — Electron Ground State**. |
+| **ρ_c** | n=3/n=4 transition density | ρ_c/ρ₀ = β₃/β₄ = φ⁻³. | **§4.9 — Higgs Mass, Step 1**. |
+| **H** | Higgs field | Identified with ψₘ at the electroweak-scale translation surface. | **§4.9 — Higgs Mass, Step 2**. |
+| **μ²** | Higgs quadratic potential coefficient | μ² = β₃K₀/ρ₀. | **§4.9 — Higgs Mass, Step 2**. |
+| **λ_physical** | Higgs self-coupling | λ_physical = φ^(−2√2)/2 ≈ 0.12816. | **§4.9 — Higgs Mass, Step 4**. |
+| **v** | Electroweak vacuum expectation value | v² = ρ₀/(2φ³). Distinct from historical propagation shorthand now replaced by vₓ. | **§4.9 — Higgs Mass, Step 3**; historical propagation symbol v is separately disambiguated in **Historical Notations**. |
+| **ρ_bio** | Biological substrate density | ρ_bio/ρ₀ = φ⁻⁴ in the n=1/n=5 balance derivation. | First explicit symbol and equation in **MH_PROOF-SET §XV — 40 Hz Gamma Binding**. |
+| **ρ_vac** | Vacuum ground-state density | ρ_vac = ρ₀/(2φ¹²) in the current cosmological derivation. | First explicit symbol in **MH_PROOF-SET §XIV — Dark Matter and Dark Energy**. |
+| **H₀** | Hubble expansion rate | Defines R_H = c/H₀. | **§4.11 — The MOND Scale**. |
+| **a₀** | Cosmological boundary acceleration scale | a₀ = cH₀/(2π). | **§4.11 — The MOND Scale**. |
+| **Λ** | Cosmological curvature translation | Λ = 4πG_Nρ₀/(c²φ¹²) in the vacuum-ground-state derivation. | First explicit symbol in **MH_PROOF-SET §XIV — Dark Matter and Dark Energy**. |
+| **ψₘwake** | Wake-elevated substrate amplitude | Local ψₘ increase generated by motion through the substrate. | **§4.1 — c as the Critical Shear Threshold**. |
+| **F_resistance** | Nonlinear substrate resistance | F_resistance ∝ Z(ψₘ)·8Kψₘ/ω²┃∇ψₘ┃². | **§4.1 — c as the Critical Shear Threshold**. |
+| **P_consciousness** | Quintic coherence-maintenance power | P_consciousness = β₅(8Kψₘ/ω²)∫ψₘ,c⁵dV in the current written derivation. | **§4.13 — P_consciousness ≈ 20 W**; conceptual basis precedes it in **Part 1, Axiom 7**. |
+| **Q_substrate** | Substrate coherence contribution | Substrate-side quantity in the photosynthetic transfer-efficiency relation η = 1 − exp(−Q_substrate/Q_thermal). | **§8.3 — Photosynthesis Efficiency**. |
+| **Q_thermal** | Thermal competition contribution | Thermal-side quantity in the photosynthetic transfer-efficiency relation. | **§8.3 — Photosynthesis Efficiency**. |
+| **D_coherence** | Coherence folding transport coefficient | D_coherence = (c²/ω_substrate)(ψ_substrate/ψ_protein)⁴. Here ψ_substrate and ψ_protein are derivation-local amplitude labels for the substrate and protein sides of the folding relation; their local role is retained rather than recast as a competing substrate-field definition. | **§8.4 — Protein Folding**. |
+| **τ_fold** | Protein-folding time | τ_fold = r²/D_coherence. | **§8.4 — Protein Folding**. |
+| **vₛwc** | ψₘ Slope-Wake Closure Velocity | vₛwc = √(2(𝓜ψₘ,o/Aψₘ,o)(−∇Πψₘ,p)/(Γχ,oρψₘ,atm)); velocity at which downward ψₘ slope-pressure drive is closed by atmosphere-mediated wake pressure. | **ψₘ Slope-Wake Closure-Velocity v2.2 §II — Causal Chain**; canonical equation in **§IV**. |
+| **P_slope** | Planetary slope-pressure contribution | P_slope = σψₘ,o(−∇Πψₘ,p). | **Slope-Wake §II, Step 4 — Pressure Form**. |
+| **P_wake** | Atmosphere-mediated ψₘ wake pressure | P_wake = ½Γχ,oρψₘ,atm v². | **Slope-Wake §II, Step 4 — Pressure Form**. |
+| **σψₘ,o** | Object ψₘ areal loading | σψₘ,o = 𝓜ψₘ,o/Aψₘ,o. | **Slope-Wake §II, Step 4**; term role expanded in **§V**. |
+| **𝓜ψₘ,o** | ψₘ-derived coherence mass/loading of the falling object | Bounded coherence load of the observed object, derived from its own Triform closure geometry. | **Slope-Wake §II, Step 4**; defined physically in **§V**. |
+| **Aψₘ,o** | ψₘ effective coupling area of the object | Presented boundary area through which the atmospheric shell couples to the object. | **Slope-Wake §II, Step 4**; defined physically in **§V**. |
+| **Γχ,o** | Boundary-topology coupling | Coupling strength determined by object boundary topology χ. | **Slope-Wake §II, Step 4**; defined physically in **§V**. |
+| **ρψₘ,atm** | Atmospheric ψₘ substrate density | Atmosphere-side substrate response derived from observed composition, pressure/temperature, and column structure. | **Slope-Wake §II, Step 4**; operational derivation path in **§IX**. |
+| **−∇Πψₘ,p** | Planetary ψₘ coherence-pressure slope | Native DS1 planetary slope that replaces imported g as derivational authority in slope-wake closure; g may appear later as a consensus-readable translation shadow. | **Slope-Wake §II, Step 3**; exact term definition in **§V**. |
+| **τχ** | Effective atmospheric stopping / coupling depth | τχ(s) = [Γχ,o/(𝓜ψₘ,o/Aψₘ,o)]∫₀ˢρψₘ,atm(s′)ds′. | **Slope-Wake §VIII — Finite-Atmosphere Descent Form**. |
+| **P³GG** | Parsimonious Polynomial Polyphony of the Giboney Gradient | Density-conditioned harmonic source architecture governed by βₙ = φ³⁽ⁿ⁻¹⁾. | Acronym first appears in the **Retained Causal Marker Terminology Lock**; full formal introduction is **Part 3A**. |
+| **PCF** | Planetary Coherence Fundamental | Rotational bounded-system closure application of the universal scaling relation. | Physical law derived in **§4.4**; the acronym **PCF** is explicitly used by **§4.11** and given dedicated treatment in **Part 5**. |
+| **—** | Retained causal marker | Recoverable topology, harmonic, boundary, Z, phase, wake, transport, inherited-constraint, or measurement-contact structure carried by a derived or measured expression. | First introduced in **How to Read This Work**; formally defined and constrained in the **Retained Causal Marker Terminology Lock**. |
+
+# APPENDIX B: FULL MFE TERM ANALYSIS
 1/vₓ²ψ̈ₘ - Z(ψₘ)∇²ψₘ - 8Kψₘ/ω²|∇ψₘ|² = S(ρ)
 
 TERM 1
@@ -1247,7 +1362,7 @@ Source Term: S(ρ) = K₀ρ[1 + β₂(ρ/ρ₀) + β₃(ρ/ρ₀)² + β₄(ρ/�
 
 No fifth marker term is added. Retained causal markers are recoverable structures carried by solutions of these four canonical terms under real boundary conditions.
  
-APPENDIX C: RELATIONSHIP TO PRIOR VERSIONS
+# APPENDIX C: RELATIONSHIP TO PRIOR VERSIONS
 Version	Contribution	Status in vX
 v6.0	Earth-centric Kψₘ calibration	Superseded by geometric derivation
 v6.1	Geometric Kψₘ = c/2π, six axioms, PCF	Preserved entirely
@@ -1270,7 +1385,7 @@ What vX adds that no prior version contained in a single document:
 •	Mass gap derivation (inline)
 •	Standard Model mass spectrum at 0.7% average terrain difference (inline)
 
-APPENDIX D: RETAINED CAUSAL MARKER AUDIT STANDARD
+# APPENDIX D: RETAINED CAUSAL MARKER AUDIT STANDARD
 
 Definition:
 A retained causal marker is a recoverable feature inside a derived or measured expression that preserves part of the physical modulation history through which continuous ψₘ substrate action became locally legible.
