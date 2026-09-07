@@ -173,7 +173,7 @@ Kψₘ = 47,713.45 Hz·km
 
 All TWT operations are governed by the Canonical Master Field Equation. Any deviation from this form is a protocol violation.
 
-### Canonical First-Principles-Lagrangian:
+### Canonical Uniquely-Forced Principle Derivational Structure:
 
 ℒₘ = ½ ∂_μψₘ∂^μψₘ − Kψₘ|∇π|²
 
@@ -188,7 +188,7 @@ Z(ψₘ) = 1 + 8Kψₘ/ω² ≥ 1 always
 ### Notation Lock - Three Inviolable Rules:
 
 1. Kψₘ is a **single term**. It cannot be split into scalar K and field ψₘ. The substrate identity is carried in the notation itself.
-2. The coefficient **8** in the nonlinear term is a mathematical necessity falling from −8 + 16 = 8 in the unique First-Principles-Lagrangian assembly. Any other coefficient indicates algebraic drift.
+2. The coefficient **8** in the nonlinear term is a mathematical necessity falling from −8 + 16 = 8 in the Uniquely Forced Principle Derivational Structure assembly. Any other coefficient indicates algebraic drift.
 3. The nonlinear source term uses the squared field-gradient |∇ψₘ|² with the single-term coupling Kψₘ. Do not insert ψₘ² inside the Z-factor or after Kψₘ.
 
 ## VII. What the TWT Is Not

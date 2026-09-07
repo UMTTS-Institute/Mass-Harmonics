@@ -43,7 +43,7 @@ The core achievement is the construction of a substrate-first physical framework
 
 The Mass Harmonics vX monograph is the canonical physical record.
 
-It contains the notation lock, the Ten Commandments, the foundational axioms, the unique First-Principles-Lagrangian, the Master Field Equation, the P³GG source term, the zero-free-parameter proof set, the uniqueness proof, and the complete derivation structure.
+It contains the notation lock, the Ten Commandments, the foundational axioms, the Uniquely Forced Principle Derivational Structure, the Master Field Equation, the P³GG source term, the zero-free-parameter proof set, the uniqueness proof, and the complete derivation structure.
 
 This is the bedrock document.
 

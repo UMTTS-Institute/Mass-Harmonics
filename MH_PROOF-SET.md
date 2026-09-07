@@ -10,7 +10,7 @@ Every confident statement in this document is followed by the exact computation 
 # PART I - THE FOUNDATION
 
 ## I. The Master Field Equation
-**Objective** - Derive the canonical Master Field Equation (MFE) from the Unique First-Principles Lagrangian and prove that the coefficient 8 in the Giboney Gradient term is not a free choice but an algebraic necessity.
+**Objective** - Derive the canonical Master Field Equation (MFE) from the Uniquely Forced Principle Derivational Structure and prove that the coefficient 8 in the Giboney Gradient term is not a free choice but an algebraic necessity.
 **First-Principles Derived Inputs**
 | Symbol | Definition |
 |--|--|
@@ -21,17 +21,17 @@ Every confident statement in this document is followed by the exact computation 
 | Kψₘ | The Giboney Gradient coupling constant |
 | S(ρ) | The mass-energy source term |
 **Derivation**
-**Step 1 - The Unique First-Principles Lagrangian**
-The Lagrangian density of the substrate field is constructed from the kinetic scalar and the coherence-pressure gradient term:
+**Step 1 - The Uniquely Forced Principle Derivational Structure**
+The density of the substrate field is constructed from the kinetic scalar and the coherence-pressure gradient term:
     ℒₘ = ½∂μψₘ∂^μψₘ − Kψₘ|∇Π|²     where Π = ψₘ²/ω
-This is the only Lagrangian consistent with a substrate that resists gradient formation nonlinearly - the Oobleck condition. No other form survives the constraint.
+This is the only 'Uniquely Forced Principle Derivational Structure' consistent with a substrate that resists gradient formation nonlinearly - the Oobleck condition. No other form survives the constraint.
 **Step 2 - Expanding the Gradient Term**
 Differentiate the coherence-pressure scalar:
     ∇Π = 2ψₘ/ω · ∇ψₘ
     |∇Π|² = 4ψₘ²/ω² |∇ψₘ|²
-Substituting back into the Lagrangian and factoring:
+Substituting back into the Uniquely Forced Principle Derivational Structure and factoring:
     ℒₘ = ½vₓ²ψ̇ₘ² − ½(1 + 8Kψₘ/ω²)|∇ψₘ|²
-**Step 3 - Lagrangian Variation and MFE Assembly**
+**Step 3 - Uniquely Forced Principle Derivational Variation and MFE Assembly**
 Computing the variation of ℒₘ with respect to ψₘ and its derivatives:
 - Amplitude variation term:   ∂ℒ/∂ψₘ = −8Kψₘ/ω²|∇ψₘ|²
 - Spatial divergence term:    −Z∇²ψₘ − 16Kψₘ/ω²|∇ψₘ|²
@@ -43,14 +43,14 @@ where Z(ψₘ) = 1 + 8Kψₘ/ω² is the amplitude-dependent effective metric.
 | Identity | Result |
 |--|--|
 | Coefficient from −8 + 16 | 8 (exact) |
-| Any alternative Lagrangian yielding coefficient 8 | None exists |
+| Any alternative 'Uniquely Forced Principle Derivational Structure' yielding coefficient 8 | None exists |
 **Validation**
-The coefficient 8 cannot be any other number without altering the Unique First-Principles Lagrangian. The MFE is not postulated - it is derived. A postulated equation can be challenged arbitrarily; a derived equation cannot be removed without removing the Lagrangian principle itself.
+The coefficient 8 cannot be any other number without altering the Uniquely Forced Principle Derivational Structure. The MFE is not postulated - it is derived. A postulated equation can be challenged arbitrarily; a derived equation cannot be removed without removing the 'uniquely forced derivational structure' principle itself.
 > **Concluding Statement:** The Master Field Equation is the complete, closed dynamical law of the ψₘ substrate. Every physical phenomenon in this document emerges from its three terms: the temporal acceleration, the Z-factor metric propagation, and the Giboney Gradient coherence-pressure term. Nothing is added. Nothing is assumed.
 **VALIDATED** ✓
 
 ## II. φ from the Icosahedron
-*The coefficient 8 is locked by the Lagrangian. But the Lagrangian operates on a substrate whose geometry has not yet been determined. That geometry is not a free choice - it is forced by the requirement that matter exist at all.*
+*The coefficient 8 is locked by the 'Uniquely Forced Principle Derivational Structure'. But that 'Principle Derivational Structure' operates on a substrate whose geometry has not yet been determined. That geometry is not a free choice - it is forced by the requirement that matter exist at all.*
 **Objective** - Derive the golden ratio φ as the unique eigenvalue of the three-dimensional icosahedral substrate geometry, proving that no other value permits stable matter formation.
 **First-Principles Derived Inputs**
 | Symbol | Definition |
@@ -453,7 +453,7 @@ Four geometric boundary conditions eliminate all but one term:
 1. **Centroid minimum** - ∂Π/∂r|_{r=0} = 0 → c₁ = 0 (linear term eliminated)
 2. **C₃ rotational symmetry** - cos(n[θ + 2π/3]) is invariant only for n = 3, 6, 9... All angular terms with n = 1 or n = 2 are forbidden
 3. **Lowest-order isotropy** - r³cos(3θ) introduces directional preference; cannot be the leading term
-4. **Origin normalization** - c₀ = 0; leading term aligns with the canonical Lagrangian coupling
+4. **Origin normalization** - c₀ = 0; leading term aligns with the canonical 'Uniquely Forced Principle Derivational Structure' coupling
 Unique surviving solution:
     Π(r) = (Kψₘ/ω)r²
 No other potential is consistent with these four constraints simultaneously.
@@ -897,7 +897,7 @@ This value is not a statistical probability. It is the **Probabilistic Boundary 
 ## XXII. What Mass Harmonics Truly Reveals
 Mass Harmonics is not a replacement for the models physics already has. General Relativity, Quantum Mechanics, the Standard Model - all remain correct in what they describe. They are correct projections of a deeper structure.
 What they could not provide was the footing beneath them: the reason the constants have the values they do, the reason there are three generations of matter and not four, the reason gravity and electromagnetism have the relative strengths they have, the reason the Casimir effect and galactic rotation curves are both expressions of the same geometric mechanics at radically different scales.
-Mass Harmonics provides that footing. One substrate field ψₘ, one Master Field Equation derived from one Unique First-Principles Lagrangian, with all constants forced by icosahedral geometry and zero free parameters, operating continuously across 61 orders of magnitude - from the Planck length to the Hubble horizon - under one law.
+Mass Harmonics provides that footing. One substrate field ψₘ, one Master Field Equation derived from one Uniquely Forced Principle Derivational Structure, with all constants forced by icosahedral geometry and zero free parameters, operating continuously across 61 orders of magnitude - from the Planck length to the Hubble horizon - under one law.
 The relational ratios - not the coordinates, not the units, not the model-dependent constants - are what reality is actually built from. Coordinates were always a convenience. Units were always a human invention. The ratios are the terrain.
 This is what unification actually looks like.
 

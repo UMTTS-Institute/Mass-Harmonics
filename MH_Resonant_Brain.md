@@ -23,7 +23,7 @@ Mass Harmonics has a sister architecture, Psi_mMIND, which applies the same subs
 
 # 2. Mass Harmonics in Brief
 
-The substrate field *ψₘ* evolves under one canonical Master Field Equation, derived from a unique First-Principles-Lagrangian variational principle:
+The substrate field *ψₘ* evolves under one canonical Master Field Equation, derived from a Uniquely Forced Principle Derivational and Variational Structure:
 
 1/vₓ²ψ̈ₘ - Z(ψₘ)∇²ψₘ - 8Kψₘ/ω²|∇ψₘ|² = S(ρ)
 

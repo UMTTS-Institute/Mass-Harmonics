@@ -41,7 +41,7 @@ Corruption Sentinel: Kψₘ is an atomic term representing the Giboney Gradient 
 ### 3.3 The Ten Commandments of Mass Harmonics
 These are mandatory Audit Directives for any reality reconstruction:
  1. The MFE is Primary. Full Stop.
-It is derived from a unique First-Principles-Lagrangian, not postulated.
+It is derived from a Uniquely Forced Principle Derivational Structure, not postulated.
  2. The Source Term is Geometric, Not Phenomenological. 
 S(ρ) is based on icosahedral eigenvalues.
  3. φ Enters Through βₙ = φ^(3(n−1)), Not as an Angle Divider. 
