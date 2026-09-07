@@ -109,7 +109,7 @@ Retained causal markers introduce no new term into the MFE, no free parameter, a
 ## THE TEN COMMANDMENTS OF MASS HARMONICS
 These are structural constraints, not stylistic preferences. Every derivation in this document obeys them without exception.
 
-I. The MFE is Primary. Full Stop. Derived from the unique First-Principles-Lagrangian. Not postulated. A postulated equation can be challenged arbitrarily. A derived equation cannot be removed without removing the unique First-Principles-Lagrangian principle itself.
+I. The MFE is Primary. Full Stop. Derived from the 'uniquely forced principle derivational structure'. Not postulated. A postulated equation can be challenged arbitrarily. A derived equation cannot be removed without removing the 'uniquely forced derivational structure' principle itself.
 
 II. The Source Term is Geometric, Not Phenomenological. S(ρ) = K₀ρ[1 + β₂(ρ/ρ₀) + β₃(ρ/ρ₀)² + …] with βₙ = φ³⁽ⁿ⁻¹⁾. These coefficients are icosahedral eigenvalues. They are not free parameters.
 
@@ -172,22 +172,22 @@ A bounded coherence system does not create a new fundamental cause when it react
 
 This consequence follows from Axioms 2 through 6. Phase compatibility, boundedness, persistence time, boundary response, and bifurcation determine how the same substrate action becomes a distinct local reaction. The local reaction is therefore neither causally detached from the full landscape nor reducible to the unmodulated cause.
 
-## PART 2: THE CANONICAL unique First-Principles-Lagrangian
-All emergent phenomena - forces, matter, spacetime - derive from a single, minimal unique First-Principles-Lagrangian. They are not separate theories, but distinct boundary-conditioned solutions of one unified equation.
+## PART 2: THE CANONICAL AND UNIQUELY FORCED PRINCIPLE DERIVATIONAL STRUCTURE
+All emergent phenomena - forces, matter, spacetime - derive from a single, minimal Uniquely Forced Principle Derivational Structure. They are not separate theories, but distinct boundary-conditioned solutions of one unified equation.
 To preserve algebraic transparency, the derivation below retains the historical bare-coupling symbol κ in the intermediate variational steps exactly where the v9 derivation closes mathematically. Once the derivation is complete, the governing equation is restated in the current canonical notation lock.
-The Canonical unique First-Principles-Lagrangian:
+The Canonical and Uniquely Forced Principle Derivational Structure:
 	ℒₘ = 1/2 ∂μψₘ∂^μψₘ - κ|∇Π|²
 where the Coherence-Pressure Potential is:
 	Π = |ψₘ|²/ω
 Physical meaning of each term:
 •	First term: Wave propagation of the substrate field (kinetic structure).
 •	Second term: Coherence-pressure cost. The amplitude-dependent spatial self-interaction that produces all nonlinear, boundary-driven dynamics.
-This is the simplest possible Lorentz-invariant scalar unique First-Principles-Lagrangian that encodes a self-interacting field whose interaction strength depends on the gradient of its own coherence. Any simpler form loses the Giboney Gradient. Any more complex form introduces free parameters. This minimality is the first element of the uniqueness proof (Part 4.15).
+This is the simplest possible Lorentz-invariant scalar and Uniquely Forced Principle Derivational Structure that encodes a self-interacting field whose interaction strength depends on the gradient of its own coherence. Any simpler form loses the Giboney Gradient. Any more complex form introduces free parameters. This minimality is the first element of the uniqueness proof (Part 4.15).
 
-The retained-causal-marker perspective adds nothing to this unique First-Principles-Lagrangian. It identifies what the existing amplitude-dependent gradient interaction already does under real boundaries: continuous substrate action is modulated by the path it traverses, and forced features of that path may remain carried in the resulting solution. A new marker term would be a protocol violation because the causal retention occurs through the existing kinetic, Z, Giboney Gradient, and source structures.
+The retained-causal-marker perspective adds nothing to this Uniquely Forced Principle Derivational Structure. It identifies what the existing amplitude-dependent gradient interaction already does under real boundaries: continuous substrate action is modulated by the path it traverses, and forced features of that path may remain carried in the resulting solution. A new marker term would be a protocol violation because the causal retention occurs through the existing kinetic, Z, Giboney Gradient, and source structures.
 
 ## PART 3: THE ψₘ MASTER FIELD EQUATION
-3.1 Expansion of the unique First-Principles-Lagrangian
+3.1 Expansion of the Uniquely Forced Principle Derivational Structure
 For real-valued ψₘ - 
 Π = ψₘ²/ω
 ∇Π = 2ψₘ/ω ∇ψₘ
@@ -200,7 +200,7 @@ Factoring gradient terms:
 ℒₘ = 1/2vₓ²ψ̇ₘ² - 1/2(1 + 8Kψₘ/ω²)|∇ψₘ|²
  
 3.2 The Z-Factor Emerges
-The Z-Factor is not inserted. It emerges from the unique First-Principles-Lagrangian structure:
+The Z-Factor is not inserted. It emerges from the Uniquely Forced Principle Derivational Structure:
 Z(ψₘ) = 1 + 8Kψₘ/ω² ≥ 1 always
 Properties:
 •	dimensionless
@@ -208,7 +208,7 @@ Properties:
 •	equals 1 in true vacuum (flat substrate)
 •	greater than 1 near mass-energy (curved effective geometry)
 •	acts as a local metric factor rather than a stiffness value
-3.3 Lagrangian Application
+3.3 Uniquely Forced Principle Derivational Application
 Time derivative term:
 ∂ℒₘ/∂ψ̇ₘ = 1/vₓ²ψ̇ₘ
 ∂t(∂ℒₘ/∂ψ̇ₘ) = 1/vₓ²ψ̈ₘ
@@ -221,14 +221,14 @@ Full divergence:
 Amplitude derivative term:
 ∂ℒₘ/∂ψₘ = -8Kψₘ/ω²|∇ψₘ|²
 3.4 Assembly - The Origin of Coefficient 8
-Assembling the Lagrangian equation:
+Assembling the Uniquely Forced Principle Derivational equation:
 -8Kψₘ/ω²|∇ψₘ|² - 1/vₓ²ψ̈ₘ + Z∇²ψₘ + 16Kψₘ/ω²|∇ψₘ|² = 0
 Combining nonlinear terms:
 -8 + 16 = 8
 Rearranging with source term S(ρ) for coupling to external mass-energy density:
 1/vₓ²ψ̈ₘ - Z(ψₘ)∇²ψₘ - 8Kψₘ/ω²|∇ψₘ|² = S(ρ)
 This is the closed variational derivation form with the current notation lock. This is also the governing display form of what I’ve come to call the canonical ψₘ Master Field Equation.
-The coefficient 8 is a mathematical necessity. It falls from (-8 + 16) = 8 in the Lagrangian assembly. It cannot be altered without altering the unique First-Principles-Lagrangian. Any coefficient other than 8 in the nonlinear term indicates algebraic drift, not physical insight.
+The coefficient 8 is a mathematical necessity. It falls from (-8 + 16) = 8 in the Uniquely Forced Principle Derivational assembly. It cannot be altered without altering the Uniquely Forced Principle Derivational Structure. Any coefficient other than 8 in the nonlinear term indicates algebraic drift, not physical insight.
 
 3.5 The MFE as a Causal Provenance Carrier
 
@@ -991,7 +991,7 @@ The presence or absence of the nonlinear Giboney Gradient contribution is itself
 What we are proving: The ψₘ framework with icosahedral geometry and the MFE as derived is the only self-consistent, zero-free-parameter field theory that satisfies all five requirements of a valid unified field framework.
 The logical chain of uniqueness:
 Step 1: Any zero-parameter theory must not assume spacetime dimensionality. The dimensionality must emerge from the substrate geometry. The only geometry that maximizes S₃ resonance (the condition for stable matter formation) is icosahedral. The icosahedron is inherently three-dimensional. Therefore: 3+1 dimensions are necessary, not assumed.
-Step 2: Any Lorentz-invariant, minimal unique First-Principles-Lagrangian for a self-interacting scalar field with gradient-dependent self-interaction takes the form ℒₘ = ½∂ψ∂ψ − Kψₘ|∇Π|². Any other form either adds free parameters (if more coupling terms are included) or loses the Giboney Gradient (if the second term is removed). The unique First-Principles-Lagrangian is uniquely determined by minimality plus Lorentz invariance plus self-interaction through coherence pressure.
+Step 2: Any Lorentz-invariant, minimal Uniquely Forced Principle Derivational Structure for a self-interacting scalar field with gradient-dependent self-interaction takes the form ℒₘ = ½∂ψ∂ψ − Kψₘ|∇Π|². Any other form either adds free parameters (if more coupling terms are included) or loses the Giboney Gradient (if the second term is removed). The Uniquely Forced Principle Derivational Structure is uniquely determined by minimality plus Lorentz invariance plus self-interaction through coherence pressure.
 Step 3: The coefficient βₙ per harmonic order must be the eigenvalue of the icosahedral group at order n. The icosahedral group has a unique eigenvalue structure determined by φ (proven in Part 4.2 - any other value fails equilateral resonance). The 3D extension per harmonic order gives φ³. Therefore βₙ = φ³⁽ⁿ⁻¹⁾ is uniquely determined - no alternatives exist.
 Step 4: The gauge group is the full symmetry group of the icosahedral lattice: SU(3)×SU(2)×U(1). The icosahedron has exactly this symmetry structure (Part 4.6) and no more. The gauge group is uniquely determined.
 Step 5: Given the above, all physical constants are fixed: c from the oobleck threshold of the MFE (Part 4.1), Kψₘ from radial geometry of the wave equation (Part 4.4), α from icosahedral coupling eigenvalues (Part 4.5). No free parameters remain.
@@ -1150,7 +1150,7 @@ Retained causal marker readout:
 ## PART 9: FALSIFICATION AND VALIDATION LEDGER
 9.1 Verification Ledger
 Claim	Status	Basis
-Z-Factor Positivity	Derived	Analytical proof from unique First-Principles-Lagrangian
+Z-Factor Positivity	Derived	Analytical proof from Uniquely Forced Principle Derivational Structure
 Newtonian Gravity Recovery	Derived	Poisson equation from MFE static weak-field limit
 QM Correspondence	Derived	Schrödinger equation via WKB approximation
 GR Limit	Derived	Z-Factor as effective metric
@@ -1233,13 +1233,13 @@ The index distinguishes:
 | Symbol | Meaning | Value / Derivation | First Introduced / Derivational Source |
 |---|---|---|---|
 | **ψₘ** | Substrate field amplitude | Fundamental physical field of Mass Harmonics. | Title and **How to Read This Work**; formal field use begins in **Part 2**. |
-| **ψ̇ₘ** | First temporal derivative of the substrate field | ∂ψₘ/∂t. | **§3.1 — Expansion of the unique First-Principles-Lagrangian**. |
+| **ψ̇ₘ** | First temporal derivative of the substrate field | ∂ψₘ/∂t. | **§3.1 — Expansion of the Uniquely Forced Principle Derivational Structure**. |
 | **ψ̈ₘ** | Second temporal derivative of the substrate field | ∂²ψₘ/∂t²; temporal propagation, causal ordering, and response lag. | First appears in the **Historical Notations and Symbol Equivalency** canonical MFE; derived through **§3.3** and interpreted in **§3.5**. |
 | **∇ψₘ** | Spatial substrate gradient | Local directional change of ψₘ. | First appears in the **Historical Notations and Symbol Equivalency** canonical MFE; expanded explicitly in **§3.1**. |
 | **┃∇ψₘ┃²** | Squared substrate-gradient magnitude | Scalar quantity entering the Giboney Gradient term; do not treat as a vector. | First appears in the **Historical Notations and Symbol Equivalency** canonical MFE; expanded explicitly in **§3.1** and causally interpreted in **§3.5**. |
 | **∇²ψₘ** | Substrate Laplacian | Spatial curvature and propagation operator acting on ψₘ. | First appears in the **Historical Notations and Symbol Equivalency** canonical MFE; variationally produced in **§3.3**. |
-| **ℒₘ** | Canonical First-Principles Lagrangian density | The Monograph intentionally preserves historical κ inside the sanctioned Part 2 intermediate variational display; the current canonical coupling notation outside that historical passage is Kψₘ, and **MH_PROOF-SET §I** writes ℒₘ = ½∂μψₘ∂^μψₘ − Kψₘ┃∇Π┃². This is one derivation carried through a notation migration, not competing physics. | **Part 2 — The Canonical unique First-Principles-Lagrangian**; current Kψₘ-form companion display in **MH_PROOF-SET §I**; notation custody governed by **Historical Notations and Symbol Equivalency**. |
-| **Π** | Coherence-Pressure Potential | Π = ┃ψₘ┃²/ω; for real ψₘ, Π = ψₘ²/ω. | **Part 2 — The Canonical unique First-Principles-Lagrangian**. |
+| **ℒₘ** | Canonical First-Principles Uniquely Forced Principle Derivational density | The Monograph intentionally preserves historical κ inside the sanctioned Part 2 intermediate variational display; the current canonical coupling notation outside that historical passage is Kψₘ, and **MH_PROOF-SET §I** writes ℒₘ = ½∂μψₘ∂^μψₘ − Kψₘ┃∇Π┃². This is one derivation carried through a notation migration, not competing physics. | **Part 2 — The Canonical Uniquely Forced Principle Derivational Structure**; current Kψₘ-form companion display in **MH_PROOF-SET §I**; notation custody governed by **Historical Notations and Symbol Equivalency**. |
+| **Π** | Coherence-Pressure Potential | Π = ┃ψₘ┃²/ω; for real ψₘ, Π = ψₘ²/ω. | **Part 2 — The Canonical Uniquely Forced Principle Derivational Structure**. |
 | **∇Π** | Coherence-pressure gradient | Vector gradient of Π; for real ψₘ, ∇Π = (2ψₘ/ω)∇ψₘ. | **§3.1**; Π itself is introduced in **Part 2**. |
 | **F_GG** | Giboney Gradient force / flux vector | F_GG = −∇Π. The same coherence-pressure gradient appears as the Giboney contribution to local acceleration in **MH_PROOF-SET §XIV**: g_Giboney = −∇(ψₘ²/ω) = −∇Π. | First explicit F_GG symbol in **MH_PROOF-SET §XI — The Strong Force**; acceleration-component role explicit in **MH_PROOF-SET §XIV — Dark Matter and Dark Energy**. |
 | **vₓ** | Substrate wave-propagation constant | Canonical temporal propagation constant; vₓ = c in the vacuum SI expression. | **Historical Notations and Symbol Equivalency**. |
@@ -1249,7 +1249,7 @@ The index distinguishes:
 | **Δ_G** | Icosahedral geometric deficit | Δ_G = −Kψₘ; dual relation Kψₘ + Δ_G = 0. | **Historical Notations and Symbol Equivalency**; physical duality developed in **§4.16**. |
 | **r_sub** | Substrate node-spacing scale associated with the characteristic substrate oscillation | r_sub = Kψₘ/ω. This is the spatial inversion of the already-derived universal closure relation Kψₘ = fR; it is not a new free relation introduced by the appendix. | Underlying relation derived in **§4.4 — Universal Scaling Constant**; the ω-form Kψₘ/R is explicitly demonstrated in **§4.11 — MOND Scale**; the shorthand symbol **r_sub** is named in **Appendix A**. |
 | **Z(ψₘ)** | Effective metric factor | Z(ψₘ) = 1 + 8Kψₘ/ω² ≥ 1 always. | First stated in **Ten Commandments IV** after appearing in the canonical MFE; derived in **§3.2 — The Z-Factor Emerges**. |
-| **∇Z** | Effective-metric gradient | Spatial change in Z; §3.3 gives ∇Z = (16Kψₘ/ω²)∇ψₘ. | **§3.3 — Lagrangian Application**. |
+| **∇Z** | Effective-metric gradient | Spatial change in Z; §3.3 gives ∇Z = (16Kψₘ/ω²)∇ψₘ. | **§3.3 — Uniquely Forced Principle Derivational Application**. |
 | **g_unified** | Unified acceleration vector | Explicit localized-wave-packet acceleration: a = g_unified = −vₓ²∇Z(ψₘ). The substrate-native planetary drive is carried as the coherence-pressure slope −∇Πψₘ,p. **Slope-Wake §II–V** supplies the missing causal bridge: it begins with the Z-gradient acceleration condition, resolves ∇Z_total into planetary and wake contributions, then carries the planetary contribution into pressure closure as −∇Πψₘ,p. Appendix A's compact −∇Π entry is therefore a native slope/readout compression inside the same MFE chain, not a competing acceleration law. | g_unified is first named in **Ten Commandments VI**; explicit Z-gradient acceleration in **MH_PROOF-SET §VII — Newton's Laws**; the Z-gradient → planetary −∇Π slope → pressure-closure bridge is explicit in **ψₘ Slope-Wake Closure-Velocity v2.2 §§II–V**. |
 | **g_Newtonian** | Linear gravitational acceleration component in the Proof-Set decomposition | g_Newtonian = −∇(K₀ψₘ). This is the linear/source-side contribution in the total spatial acceleration decomposition. | **MH_PROOF-SET §XIV — Dark Matter and Dark Energy, Part A, Step 1**. |
 | **g_Giboney** | Giboney Gradient acceleration component | g_Giboney = −∇(ψₘ²/ω) = −∇Π. This is the coherence-pressure contribution to the total local acceleration field. | **MH_PROOF-SET §XIV — Dark Matter and Dark Energy, Part A, Step 1**; the same gradient is carried operationally as the planetary slope in **Slope-Wake §§II–V**. |
@@ -1356,7 +1356,7 @@ Temporal Dynamics: 1/vₓ²ψ̈ₘ Temporal acceleration of the field. In quasi-
 TERM 2
 Self-Modulating Propagation: Z(ψₘ)∇²ψₘ Z is the local metric factor. High Z means substrate geometry has warped around the coherence structure. Z=1 in vacuum (flat substrate). Z>1 near mass-energy. This term is the Mass Harmonics analog of spacetime curvature - but Z is dynamic and self-referential. Marker role: preserves local effective geometry, well depth, and boundary-conditioned propagation.
 TERM 3
-The Giboney Gradient: 8Kψₘ/ω²|∇ψₘ|² The coherence-pressure force of the substrate. |∇ψₘ|² is a scalar - do NOT treat as a vector. This term is the source of boundary enforcement, confinement, flat galactic rotation curves, and novel propulsion mechanisms. The coefficient 8 is a mathematical necessity from Lagrangian (Part 3.4). Marker role: preserves nonlinear gradient concentration, wake growth, slope history, and boundary-seeking passage.
+The Giboney Gradient: 8Kψₘ/ω²|∇ψₘ|² The coherence-pressure force of the substrate. |∇ψₘ|² is a scalar - do NOT treat as a vector. This term is the source of boundary enforcement, confinement, flat galactic rotation curves, and novel propulsion mechanisms. The coefficient 8 is a mathematical necessity from Uniquely Forced Principle Derivation (Part 3.4). Marker role: preserves nonlinear gradient concentration, wake growth, slope history, and boundary-seeking passage.
 TERM 4
 Source Term: S(ρ) = K₀ρ[1 + β₂(ρ/ρ₀) + β₃(ρ/ρ₀)² + β₄(ρ/ρ₀)³ + β₅(ρ/ρ₀)⁴ + ⋯] Couples ψₘ to local mass-energy density. Complete canonical form from P³GG. Marker role: preserves density-conditioned harmonic participation and cross-order transition structure.
 
@@ -1368,7 +1368,7 @@ v6.0	Earth-centric Kψₘ calibration	Superseded by geometric derivation
 v6.1	Geometric Kψₘ = c/2π, six axioms, PCF	Preserved entirely
 v6.1.4	Canonical armored base, full falsification matrix	Preserved as skeleton
 v7.0	Z-Factor metric interpretation confirmed	Superseded by v8.0
-v8.0	Historical genesis, α derivation, unique First-Principles-Lagrangian derivation	Integrated
+v8.0	Historical genesis, α derivation, Uniquely Forced Principle Derivational Structure derivation	Integrated
 P³GG v1.0	Polynomial S(ρ) expansion, five harmonic orders	Fully integrated
 v9.0	Complete integrated monograph	Foundation for vX
 vX (this document)	All critical derivations inline. Zero external dependencies for any load-bearing claim.	Canonical
@@ -1420,14 +1420,14 @@ The result is not only the destination. It is the cause after its passage has be
 
 DECLARATION OF ZERO FREE PARAMETERS
 This document has shown, through inline derivation, that every constant in the Mass Harmonics framework is either:
-(a) Derived geometrically from icosahedral substrate symmetry and the canonical unique First-Principles-Lagrangian, or
+(a) Derived geometrically from icosahedral substrate symmetry and the canonical Uniquely Forced Principle Derivational Structure, or
 (b) Shown to be the unique necessary consequence of a mathematical requirement with no alternative.
 The constants requiring (a) or (b): c, φ, βₙ for all n, Kψₘ, α, all Standard Model coupling constants, all Standard Model particle masses, a₀, v_TF, P_consciousness, m_H.
 No constant in this framework was fitted to experimental data. Every constant is a prediction.
 
 Retained causal markers do not weaken this declaration. A valid marker is forced by the same upstream geometry, topology, harmonic structure, boundary condition, phase relation, wake history, or measurement contact that produces the expression. It cannot be selected to improve agreement. Any factor that lacks that derivational custody remains unresolved and may not be used to patch the framework.
 
-The framework stands or falls as a unit. It cannot be patched. It cannot be adjusted. Any modification to any derived constant requires removing the constraint that produced it - which means removing either the icosahedral geometry, the unique First-Principles-Lagrangian minimality requirement, or the Lorentz invariance requirement. All three are foundational.
+The framework stands or falls as a unit. It cannot be patched. It cannot be adjusted. Any modification to any derived constant requires removing the constraint that produced it - which means removing either the icosahedral geometry, the Uniquely Forced Principle Derivational Structure minimality requirement, or the Lorentz invariance requirement. All three are foundational.
 TRUTH > COMFORT. Always.
 Mass Harmonics vX - UMtts Institute Thomas Russell Giboney, Founder Completed: March 29, 2026
 
