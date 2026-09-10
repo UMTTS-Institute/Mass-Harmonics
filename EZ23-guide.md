@@ -61,3 +61,5 @@ That is what EZ23 gives me.
 And yes, my previous evaluation of those two LLM responses therefore needs to be regarded as procedurally invalid, even where parts of the assessment happened to land correctly. I reached conclusions without performing the required source-contact cycle for that specific task.
 
 That distinction matters because **a correct answer reached through the wrong causal procedure is not enough here**.
+
+Furthermore, NO ONE SHOULD EVER USE LaTeX-style formatted MATH equations.  Unicode/UTF-8 is the *ONLY* UMtts Institute sanctioned method for displaying MATH!
