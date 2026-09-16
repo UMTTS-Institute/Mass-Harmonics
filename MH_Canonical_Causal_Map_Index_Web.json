@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
   "title": "MASS HARMONICS: CANONICAL CAUSAL MAP AND INDEX WEB",
-  "version": "5.0-GITHUB-SOURCE-LOCKED",
-  "generated": "2026-08-25",
+  "version": "5.1-GITHUB-SOURCE-LOCKED",
+  "generated": "2026-09-16",
   "source_lock": {
     "repository": "UMTTS-Institute/Mass-Harmonics",
     "branch": "master",
@@ -442,6 +442,102 @@
       "locator": "Document root",
       "anchor": "Mass Harmonics",
       "purpose": "Anti-contamination controls for source/ontology preservation."
+    },
+    {
+      "id": "WWPDB_PDB1_EQUILATERAL_TRIAD",
+      "title": "wwPDB PDB-1: Equilateral-Triad Enrichment in Resolved Cores",
+      "source": "WWPDB_PREDICTION",
+      "locator": "V. Derivation 1: Equilateral-Triad Enrichment in Closed Cores",
+      "anchor": "median(Q_△ | resolved core) > median(Q_△ | resolved surface)",
+      "purpose": "Sealed prediction that resolved protein cores carry higher Delaunay equilateral-triangle closure than surface, mobile, or unresolved terrain."
+    },
+    {
+      "id": "WWPDB_PDB2_CAGE_AXES",
+      "title": "wwPDB PDB-2: Icosahedral Axis Recovery in Near-Spherical Cages",
+      "source": "WWPDB_PREDICTION",
+      "locator": "VI. Derivation 2: Icosahedral Axis Recovery in Near-Spherical Cages",
+      "anchor": "rotation orders = {2, 3, 5}",
+      "purpose": "Sealed prediction that eligible near-spherical biological cages recover {2,3,5} rotational axes from coordinates without metadata."
+    },
+    {
+      "id": "WWPDB_PDB3_CODON_RESIDUAL",
+      "title": "wwPDB PDB-3: Codon Z-Cascade Residual vs Structural Resolution",
+      "source": "WWPDB_PREDICTION",
+      "locator": "VII. Derivation 3: Codon Z-Cascade Residual and Structural Resolution",
+      "anchor": "Dᵢ = |Δᵢ + Σⱼ∈N(i) Δⱼ|",
+      "purpose": "Sealed prediction that first-shell codon orientation residual Dᵢ runs lower in resolved cores and higher in mobile or unresolved neighborhoods."
+    },
+    {
+      "id": "WWPDB_PDB4_SYNONYMOUS_STRATIFICATION",
+      "title": "wwPDB PDB-4: Synonymous-Codon Orientation Stratification",
+      "source": "WWPDB_PREDICTION",
+      "locator": "VIII. Derivation 4: Synonymous-Codon Orientation Stratification",
+      "anchor": "smaller local signed residual after neighborhood cancellation",
+      "purpose": "Sealed prediction that synonymous codons stratify by local orientation residual within matched amino-acid identity."
+    },
+    {
+      "id": "WWPDB_VALIDATION_RECORD",
+      "title": "wwPDB Finished Validation Record",
+      "source": "WWPDB_VALIDATION",
+      "locator": "IX. Falsifier Adjudication - Complete Verdicts",
+      "anchor": "PDB-1 VALIDATED · PDB-2 VALIDATED · PDB-3 VALIDATED · PDB-4 VALIDATED",
+      "purpose": "Terrain-contact verdicts for all four sealed wwPDB pathways; four falsifiers stated before terrain, zero triggered."
+    },
+    {
+      "id": "ICHEP_P1_HIGGS_PAIR",
+      "title": "ICHEP P1: Higgs Boundary Pair",
+      "source": "ICHEP_PREDICTION",
+      "locator": "VI. Prediction 1: Higgs Boundary Pair",
+      "anchor": "m_H = 124.6 GeV",
+      "purpose": "Sealed prediction of the Higgs boundary mass and self-coupling pair from cubic-failure suppression on φ geometry."
+    },
+    {
+      "id": "ICHEP_P2_TOP_MASS",
+      "title": "ICHEP P2: Top-Quark Boundary Mass",
+      "source": "ICHEP_PREDICTION",
+      "locator": "VII. Prediction 2: Top-Quark Boundary Mass",
+      "anchor": "m_t = 172.2 GeV",
+      "purpose": "Sealed prediction of the top boundary mass as the m_c · α⁻¹ closure step of the fixed quark chain."
+    },
+    {
+      "id": "ICHEP_P3_THREE_GENERATIONS",
+      "title": "ICHEP P3: Exactly Three Matter Generations",
+      "source": "ICHEP_PREDICTION",
+      "locator": "VIII. Prediction 3: Exactly Three Matter Generations",
+      "anchor": "N_generations = 3",
+      "purpose": "Sealed structural prediction that exactly three sequential matter generations exist; no fourth sequential family."
+    },
+    {
+      "id": "ICHEP_P4_NEUTRINO_SET",
+      "title": "ICHEP P4: Neutral-Sector Mass-Depth Set",
+      "source": "ICHEP_PREDICTION",
+      "locator": "IX. Prediction 4: Neutral-Sector Mass-Depth Set",
+      "anchor": "Σmν = 60.47 meV",
+      "purpose": "Sealed prediction of the neutral-sector recursive mass-depth set, adjacent ratio φ³, and total mass sum."
+    },
+    {
+      "id": "ICHEP_P5_MISSING_ACCELERATION",
+      "title": "ICHEP P5: No Particle Closes the Missing-Acceleration Terrain",
+      "source": "ICHEP_PREDICTION",
+      "locator": "X. Prediction 5: No Particle Primitive Closes the Missing-Acceleration Terrain",
+      "anchor": "No localized fundamental particle species will become the physical source",
+      "purpose": "Sealed prediction that no localized particle species closes the missing-acceleration terrain across all six identity requirements."
+    },
+    {
+      "id": "ICHEP_P6_CONFINEMENT",
+      "title": "ICHEP P6: Absolute Confinement and Eight-Mode Closure",
+      "source": "ICHEP_PREDICTION",
+      "locator": "XI. Prediction 6: Absolute Confinement and Eight-Mode Closure",
+      "anchor": "U(∞) = ∞",
+      "purpose": "Sealed prediction of absolute quark confinement, eight strong-interaction modes, and no free quark."
+    },
+    {
+      "id": "ICHEP_VALIDATION_RECORD",
+      "title": "ICHEP Finished Validation Record",
+      "source": "ICHEP_VALIDATION",
+      "locator": "Six-Line Verdict",
+      "anchor": "FALSIFIERS ACTIVATED: 0 / 6",
+      "purpose": "Terrain-contact verdicts for all six sealed ICHEP pathways; six falsifiers stated before the corridor, zero triggered."
     }
   ],
   "known_repairs_from_legacy_working_maps": [
