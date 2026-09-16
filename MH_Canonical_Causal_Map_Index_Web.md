@@ -1,6 +1,6 @@
-# MASS HARMONICS: CANONICAL CAUSAL MAP AND INDEX WEB (v5.0)
+# MASS HARMONICS: CANONICAL CAUSAL MAP AND INDEX WEB (v5.1)
 
-*GitHub Source-Locked Repair Edition - August 25, 2026*
+*GitHub Source-Locked 'Validated Predictions Added' Edition - September 16, 2026*
 
 ## 0. Source Lock
 
@@ -42,6 +42,10 @@
 | `OPERATIONAL_STANCE` | `Operational_Stance_of_UMtts.md` | `a68a6621ca9ec7b2650badf8c01dbeb80b440a99` | Terrain-first operational/source-discipline authority. |
 | `ONTOLOGY_PRESERVATION` | `5_bullets_for_preserving_Mass_Harmonics_Ontology.md` | `46bea1130db6fa5b9fbb90f016ee94ca12a914bb` | Anti-contamination and ontology-preservation operating surface. |
 | `QPP_PLUS` | `QPP+.md` | `dd8e33a6803b26f9e1b1bb699233ff0cba7cbbce` | Companion extension/provenance surface; use according to its stated scope. |
+| `WWPDB_PREDICTION` | `MH_PREDICTION_02_wwPDB_Weekly_Structural_Release_2026-07-15_Mass_Harmonics_Governed.md` | `29675ce031b5555512fd587ee7c65d479879dd9a` | Sealed pre-release terrain prediction for the wwPDB 2026-07-15 weekly structural release; four pathways with declared falsifiers. |
+| `ICHEP_PREDICTION` | `MH_PREDICTION_04_ICHEP_2026_Mass_Harmonics_Governed.md` | `de751357f358cff09d68359180878a5cd64debf5` | Sealed pre-release terrain prediction for the ICHEP 2026 public result corridor; six pathways with declared falsifiers. |
+| `WWPDB_VALIDATION` | `wwPDB_FINISHED_VALIDATION_RECORD.md` | `ee5b09f0b07e2bde9736ddb10f27f6c158107c96` | Finished terrain-contact validation record for the wwPDB 2026-07-15 release; four pathways validated, zero falsifiers triggered. |
+| `ICHEP_VALIDATION` | `ICHEP_FINISHED_VALIDATION_RECORD.md` | `bed388540b43ed256311d1d955d2497cc6c72576` | Finished terrain-contact validation record for the ICHEP 2026 corridor; six pathways validated, zero falsifiers triggered. |
 
 ## 3. Canonical Physical Reading Lock
 
@@ -200,6 +204,18 @@ A node is a stable retrieval handle. A node does **not** acquire causal parentag
 | `CEPTA_COGNITIVE_INTEGRITY` | CEPTA / Cognitive Integrity | `MH_CEPTA.md` (`6fbfedcf4d801a5876b03310b50d948adc56db35`) | `Document root; use exact current section on retrieval` | `CEPTA` | Truth-first cognitive/legal/communication integrity extension; not physical derivation authority. |
 | `OPERATIONAL_STANCE` | Operational Stance of UMtts | `Operational_Stance_of_UMtts.md` (`a68a6621ca9ec7b2650badf8c01dbeb80b440a99`) | `Document root` | `terrain` | Operational source discipline and terrain-first posture. |
 | `ONTOLOGY_PRESERVATION` | Ontology Preservation Controls | `5_bullets_for_preserving_Mass_Harmonics_Ontology.md` (`46bea1130db6fa5b9fbb90f016ee94ca12a914bb`) | `Document root` | `Mass Harmonics` | Anti-contamination controls for source/ontology preservation. |
+| `WWPDB_PDB1_EQUILATERAL_TRIAD` | wwPDB PDB-1: Equilateral-Triad Enrichment in Resolved Cores | `MH_PREDICTION_02_wwPDB_Weekly_Structural_Release_2026-07-15_Mass_Harmonics_Governed.md` (`29675ce031b5555512fd587ee7c65d479879dd9a`) | `V. Derivation 1: Equilateral-Triad Enrichment in Closed Cores` | `median(Q_△ | resolved core) > median(Q_△ | resolved surface)` | Sealed prediction that resolved protein cores carry higher Delaunay equilateral-triangle closure than surface, mobile, or unresolved terrain. |
+| `WWPDB_PDB2_CAGE_AXES` | wwPDB PDB-2: Icosahedral Axis Recovery in Near-Spherical Cages | `MH_PREDICTION_02_wwPDB_Weekly_Structural_Release_2026-07-15_Mass_Harmonics_Governed.md` (`29675ce031b5555512fd587ee7c65d479879dd9a`) | `VI. Derivation 2: Icosahedral Axis Recovery in Near-Spherical Cages` | `rotation orders = {2, 3, 5}` | Sealed prediction that eligible near-spherical biological cages recover {2,3,5} rotational axes from coordinates without metadata. |
+| `WWPDB_PDB3_CODON_RESIDUAL` | wwPDB PDB-3: Codon Z-Cascade Residual vs Structural Resolution | `MH_PREDICTION_02_wwPDB_Weekly_Structural_Release_2026-07-15_Mass_Harmonics_Governed.md` (`29675ce031b5555512fd587ee7c65d479879dd9a`) | `VII. Derivation 3: Codon Z-Cascade Residual and Structural Resolution` | `Dᵢ = |Δᵢ + Σⱼ∈N(i) Δⱼ|` | Sealed prediction that first-shell codon orientation residual Dᵢ runs lower in resolved cores and higher in mobile or unresolved neighborhoods. |
+| `WWPDB_PDB4_SYNONYMOUS_STRATIFICATION` | wwPDB PDB-4: Synonymous-Codon Orientation Stratification | `MH_PREDICTION_02_wwPDB_Weekly_Structural_Release_2026-07-15_Mass_Harmonics_Governed.md` (`29675ce031b5555512fd587ee7c65d479879dd9a`) | `VIII. Derivation 4: Synonymous-Codon Orientation Stratification` | `smaller local signed residual after neighborhood cancellation` | Sealed prediction that synonymous codons stratify by local orientation residual within matched amino-acid identity. |
+| `WWPDB_VALIDATION_RECORD` | wwPDB Finished Validation Record | `wwPDB_FINISHED_VALIDATION_RECORD.md` (`ee5b09f0b07e2bde9736ddb10f27f6c158107c96`) | `IX. Falsifier Adjudication - Complete Verdicts` | `PDB-1 VALIDATED · PDB-2 VALIDATED · PDB-3 VALIDATED · PDB-4 VALIDATED` | Terrain-contact verdicts for all four sealed wwPDB pathways; four falsifiers stated before terrain, zero triggered. |
+| `ICHEP_P1_HIGGS_PAIR` | ICHEP P1: Higgs Boundary Pair | `MH_PREDICTION_04_ICHEP_2026_Mass_Harmonics_Governed.md` (`de751357f358cff09d68359180878a5cd64debf5`) | `VI. Prediction 1: Higgs Boundary Pair` | `m_H = 124.6 GeV` | Sealed prediction of the Higgs boundary mass and self-coupling pair from cubic-failure suppression on φ geometry. |
+| `ICHEP_P2_TOP_MASS` | ICHEP P2: Top-Quark Boundary Mass | `MH_PREDICTION_04_ICHEP_2026_Mass_Harmonics_Governed.md` (`de751357f358cff09d68359180878a5cd64debf5`) | `VII. Prediction 2: Top-Quark Boundary Mass` | `m_t = 172.2 GeV` | Sealed prediction of the top boundary mass as the m_c · α⁻¹ closure step of the fixed quark chain. |
+| `ICHEP_P3_THREE_GENERATIONS` | ICHEP P3: Exactly Three Matter Generations | `MH_PREDICTION_04_ICHEP_2026_Mass_Harmonics_Governed.md` (`de751357f358cff09d68359180878a5cd64debf5`) | `VIII. Prediction 3: Exactly Three Matter Generations` | `N_generations = 3` | Sealed structural prediction that exactly three sequential matter generations exist; no fourth sequential family. |
+| `ICHEP_P4_NEUTRINO_SET` | ICHEP P4: Neutral-Sector Mass-Depth Set | `MH_PREDICTION_04_ICHEP_2026_Mass_Harmonics_Governed.md` (`de751357f358cff09d68359180878a5cd64debf5`) | `IX. Prediction 4: Neutral-Sector Mass-Depth Set` | `Σmν = 60.47 meV` | Sealed prediction of the neutral-sector recursive mass-depth set, adjacent ratio φ³, and total mass sum. |
+| `ICHEP_P5_MISSING_ACCELERATION` | ICHEP P5: No Particle Closes the Missing-Acceleration Terrain | `MH_PREDICTION_04_ICHEP_2026_Mass_Harmonics_Governed.md` (`de751357f358cff09d68359180878a5cd64debf5`) | `X. Prediction 5: No Particle Primitive Closes the Missing-Acceleration Terrain` | `No localized fundamental particle species will become the physical source` | Sealed prediction that no localized particle species closes the missing-acceleration terrain across all six identity requirements. |
+| `ICHEP_P6_CONFINEMENT` | ICHEP P6: Absolute Confinement and Eight-Mode Closure | `MH_PREDICTION_04_ICHEP_2026_Mass_Harmonics_Governed.md` (`de751357f358cff09d68359180878a5cd64debf5`) | `XI. Prediction 6: Absolute Confinement and Eight-Mode Closure` | `U(∞) = ∞` | Sealed prediction of absolute quark confinement, eight strong-interaction modes, and no free quark. |
+| `ICHEP_VALIDATION_RECORD` | ICHEP Finished Validation Record | `ICHEP_FINISHED_VALIDATION_RECORD.md` (`bed388540b43ed256311d1d955d2497cc6c72576`) | `Six-Line Verdict` | `FALSIFIERS ACTIVATED: 0 / 6` | Terrain-contact verdicts for all six sealed ICHEP pathways; six falsifiers stated before the corridor, zero triggered. |
 
 ## 6. Operational Terrain Is Not Physical Parentage
 
