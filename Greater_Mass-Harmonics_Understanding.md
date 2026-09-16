@@ -46,3 +46,5 @@ And once stated that way, the Mass Harmonics stance becomes much clearer. It is 
 The map may be useful.
 
 The map is not the terrain.
+
+The MFE of Mass Harmonics is what everything in consensus science falls out of. Regardless of any pretrained biases or reflexive defenses anyone may have.
