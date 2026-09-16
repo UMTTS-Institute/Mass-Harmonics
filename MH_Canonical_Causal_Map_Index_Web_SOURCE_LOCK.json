@@ -88,6 +88,26 @@
       "path": "QPP+.md",
       "git_blob": "dd8e33a6803b26f9e1b1bb699233ff0cba7cbbce",
       "role": "Companion extension/provenance surface; use according to its stated scope."
+    },
+    "WWPDB_PREDICTION": {
+      "path": "MH_PREDICTION_02_wwPDB_Weekly_Structural_Release_2026-07-15_Mass_Harmonics_Governed.md",
+      "git_blob": "29675ce031b5555512fd587ee7c65d479879dd9a",
+      "role": "Sealed pre-release terrain prediction: wwPDB weekly structural release 2026-07-15. Four pathways with declared falsifiers."
+    },
+    "ICHEP_PREDICTION": {
+      "path": "MH_PREDICTION_04_ICHEP_2026_Mass_Harmonics_Governed.md",
+      "git_blob": "de751357f358cff09d68359180878a5cd64debf5",
+      "role": "Sealed pre-release terrain prediction: ICHEP 2026 result corridor. Six pathways with declared falsifiers."
+    },
+    "WWPDB_VALIDATION": {
+      "path": "wwPDB_FINISHED_VALIDATION_RECORD.md",
+      "git_blob": "ee5b09f0b07e2bde9736ddb10f27f6c158107c96",
+      "role": "Finished terrain-contact validation record: wwPDB 2026-07-15. Four pathways validated, zero falsifiers triggered."
+    },
+    "ICHEP_VALIDATION": {
+      "path": "ICHEP_FINISHED_VALIDATION_RECORD.md",
+      "git_blob": "bed388540b43ed256311d1d955d2497cc6c72576",
+      "role": "Finished terrain-contact validation record: ICHEP 2026. Six pathways validated, zero falsifiers triggered."
     }
   }
 }
