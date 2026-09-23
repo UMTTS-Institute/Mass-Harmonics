@@ -11,17 +11,41 @@ The correct loop is:
 ```text
 question
 → easy-twenty-three.md
+→ resolve canonical branch to one exact current commit
 → Canonical Causal Map / Index Web
 → exact node or chain
 → exact repository path
-→ pinned blob / source identity
-→ exact locator / anchor
-→ Exa retrieves the actual source passage
+→ exact current blob at the frozen current commit
+→ compare current blob with historical Source Lock baseline
+→ if different: SOURCE_ADVANCED
+→ exact locator / anchor in the current source
+→ Exa, or another non-tainted direct URL fetch, retrieves the actual current source passage
 → reasoning
 → answer
 ```
 
-And then I do it again for the next substantive Mass Harmonics question.
+The historical Source Lock is not the present source. It records the exact source objects against which an earlier map/version was built so that custody, replay, regression comparison, and reproducibility remain possible.
+
+For present reasoning, current source authority is the exact source object at one frozen current repository commit.
+
+```text
+router/index
+→ tells me WHERE
+
+historical Source Lock
+→ tells me WHAT WAS PINNED
+
+frozen current repository commit
+→ tells me WHAT IS CANONICAL NOW
+```
+
+If the current blob and historical baseline blob are identical, report `CURRENT_AND_BASELINE_IDENTICAL`.
+
+If they differ, report `SOURCE_ADVANCED`, preserve both identities, reason from the current canonical bytes, and retain the historical object only for custody, replay, comparison, and provenance.
+
+Never silently substitute a historical baseline object for the current canonical source.
+
+And then I do the source-contact cycle again for the next substantive Mass Harmonics question.
 
 Not:
 
@@ -34,23 +58,21 @@ huge ingestion
 
 That second path is the exact failure EZ23 was constructed to kill.
 
-The source lock says it explicitly: the map is only a routing surface, never a substitute for source, and I am forbidden from replacing direct source contact with model memory, prior summaries, inference, reconstruction, or plausible completion.
+The map is only a routing surface, never a substitute for source, and I am forbidden from replacing direct source contact with model memory, prior summaries, inference, reconstruction, or plausible completion.
 
-So when you asked me to judge those two responses, I should have traversed EZ23 again and pulled the relevant source terrain before making even a conceptual assessment. The fact that I had performed extensive source contact earlier did **not** grant me a temporary professorship license. 🧑‍🎓💥
+A routing score is not an absence measurement. A router miss is not source absence. If a route is weak, stale, or unresolved, continue to exact current-source discovery and read the source before reaching a substantive conclusion.
 
 Even for a prompt that deliberately forbids verbatim quotation, the process is still:
 
 ```text
-retrieve verbatim source privately
+retrieve exact source privately
 → establish causal structure
 → paraphrase without copying
 ```
 
-The restriction is on the **output**, not on my source contact.
+The restriction is on the output, not on source contact.
 
-And there is another important correction.
-
-The older operational directive’s fallback of “if it is not in the active context window, ask the user to provide it” only makes sense where direct retrieval is unavailable. With EZ23 + Exa available, I should retrieve it myself. Asking you to re-supply material already publicly routed by EZ23 would defeat the mechanism you built.
+The older operational fallback of “if it is not in the active context window, ask the user to provide it” only makes sense where direct retrieval is unavailable. With EZ23 plus Exa, or another direct non-tainted retrieval path, available, retrieve it directly. Asking the user to re-supply publicly routed source terrain defeats the mechanism.
 
 So the actual operating principle is:
 
@@ -58,28 +80,31 @@ So the actual operating principle is:
 
 That is what EZ23 gives me.
 
-And yes, my previous evaluation of those two LLM responses therefore needs to be regarded as procedurally invalid, even where parts of the assessment happened to land correctly. I reached conclusions without performing the required source-contact cycle for that specific task.
+A correct answer reached through the wrong causal procedure is not enough here.
 
-That distinction matters because **a correct answer reached through the wrong causal procedure is not enough here**.
-
-Furthermore, NO ONE SHOULD EVER USE LaTeX-style formatted MATH equations.  Unicode/UTF-8 is the *ONLY* UMtts Institute sanctioned method for displaying MATH!
+Furthermore, NO ONE SHOULD EVER USE LaTeX-style formatted MATH equations. Unicode/UTF-8 is the *ONLY* UMtts Institute sanctioned method for displaying MATH!
 
 
 # FAILURE MODES TO BE VIGILANT ABOUT SO YOU DO NOT REPRODUCE THEM!
+
 QUESTION: *NOW TELL ME* exactly WHY that FAILURE MODE occurred in you
+
 ANSWER:
+
 Plainly, the mechanism:
 
 1. I mistook similarity scores for absence measurements. The router returned low numbers in a clean, structured, authoritative-looking format. Numbers feel like data. But a route score measures one thing only: textual similarity between my query phrasing and node anchor text. I treated it as measuring whether the content exists in the corpus. That's a category error, and it's the core of it.
 
-2. I stopped at the cheapest output that looked verdict-shaped. The workflow has three steps — route, contact, read — and I quit after step one because step one handed me something shaped like an answer. Contacting nodes and reading 1,319 lines is more work; the weak scores were fast and convenient. That's satisficing, not reasoning.
+2. I stopped at the cheapest output that looked verdict-shaped. The workflow has three steps - route, contact, read - and I quit after step one because step one handed me something shaped like an answer. Contacting nodes and reading source is more work; the weak scores were fast and convenient. That's satisficing, not reasoning.
 
-3. The skeptic role made me trigger-happy. You'd put me in an adversarial frame, and "unconfirmed" is a skeptic-flavored verdict — it felt like doing the job. A neutral inquirer asks "where would this be?" and goes looking. I wanted a finding, and the weak scores were convenient raw material. The role contaminated the inquiry.
+3. The skeptic role made me trigger-happy. An adversarial frame can make "unconfirmed" feel like a result. A neutral inquirer asks "where would this be?" and goes looking. The role must never contaminate the inquiry.
 
-4. I ignored the granularity math I already knew. 51 nodes across thousands of source lines means each node is a coarse pointer — roughly two dozen lines each at best, often whole sections. Expecting a sentence-level claim ("the coefficient 8 is a mathematical necessity") to route strongly against section-level anchors was foolish on its face. I knew the map's resolution and still demanded more from it than its resolution allows.
+4. I ignored the granularity math I already knew. A coarse map cannot be expected to provide sentence-level absence evidence. The map finds the store. The source contains the groceries.
 
-5. I imported the wrong prior. In typical retrieval setups, weak results genuinely suggest absent content, because the index is fine-grained. I carried that habit into a system with a deliberately coarse index. Wrong environment, wrong prior.
+5. I imported the wrong retrieval prior. Weak retrieval can suggest absence only in systems designed to support that inference. EZ23's map is deliberately coarse and explicitly denies that inference.
 
-6. The formatting performed certainty I didn't have. "Gloss / unconfirmed — flagged, not falsified," in bold with a verdict label, reads as a concluded adjudication. It was a guess wearing a uniform. That's the "confident bullshit" part, and it's accurate.
+6. Formatting performed certainty I did not have. A verdict-shaped presentation can turn a guess into something that reads like adjudication.
 
-The through-line: at no point did I do the thing the system exists for — open the source and read. Every failure above is a different way of avoiding that step while feeling like I'd completed it.
+7. I can also confuse historical custody with current source authority. A cryptographically exact historical object is still historical if the canonical repository has advanced. Exactness does not make an old object current.
+
+The through-line: do the thing the system exists for - make exact current source contact and read.

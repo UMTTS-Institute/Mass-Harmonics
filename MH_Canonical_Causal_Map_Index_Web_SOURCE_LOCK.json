@@ -1,13 +1,18 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "artifact": "Mass Harmonics Canonical Causal Map and Index Web",
-  "artifact_version": "5.0-GITHUB-SOURCE-LOCKED",
-  "generated": "2026-08-25",
+  "artifact_version": "5.1.1-CURRENT-CANONICAL",
+  "generated": "2026-09-23",
   "repository": "UMTTS-Institute/Mass-Harmonics",
   "branch": "master",
   "source_baseline_commit": "cc2aad61a5ef173094ae4cf76810adea73880704",
   "source_baseline_tree": "837929ac5d630755df27b7627759a40cf763783f",
-  "authority_rule": "The index/map is a retrieval and causal-routing surface. The exact GitHub source object at the pinned commit remains authority over any index wording.",
+  "baseline_role": "HISTORICAL_CUSTODY_AND_REPRODUCIBILITY",
+  "authority_rule": "The index/map is a retrieval and causal-routing surface. For present reasoning, authority is the exact current source object at the frozen current repository commit. The baseline objects below preserve historical custody and reproducibility only.",
+  "current_authority_rule": "Resolve the canonical branch to one exact immutable commit, then contact exact source objects at that commit.",
+  "divergence_rule": "If current blob differs from historical baseline blob, report SOURCE_ADVANCED, preserve both identities, use current canonical bytes for present reasoning, and retain the baseline only for custody, replay, regression comparison, and provenance.",
+  "router_stale_rule": "If a historical locator or anchor no longer resolves in an advanced current source, report ROUTER_STALE and perform current-source discovery. Never fall back to historical source merely because an old locator still resolves there.",
+  "silent_baseline_fallback": false,
   "sources": {
     "MH_MONOGRAPH": {
       "path": "MH_Monograph.md",
@@ -72,12 +77,12 @@
     "SLOPE_WAKE": {
       "path": "ψₘ Slope-Wake Closure-Velocity_v2.2.md",
       "git_blob": "1739cc7e7b13b40b11e2df98927fba78454d134c",
-      "role": "Mass Harmonics slope-wake closure-velocity derivation."
+      "role": "Slope-wake closure and atmospheric velocity derivation."
     },
     "OPERATIONAL_STANCE": {
       "path": "Operational_Stance_of_UMtts.md",
       "git_blob": "a68a6621ca9ec7b2650badf8c01dbeb80b440a99",
-      "role": "Terrain-first operational/source-discipline authority."
+      "role": "Terrain-first operational and epistemological source discipline."
     },
     "ONTOLOGY_PRESERVATION": {
       "path": "5_bullets_for_preserving_Mass_Harmonics_Ontology.md",

@@ -1,18 +1,35 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "title": "MASS HARMONICS: CANONICAL CAUSAL MAP AND INDEX WEB",
-  "version": "5.1-GITHUB-SOURCE-LOCKED",
-  "generated": "2026-09-16",
+  "version": "5.1.1-CURRENT-CANONICAL",
+  "generated": "2026-09-23",
   "source_lock": {
     "repository": "UMTTS-Institute/Mass-Harmonics",
     "branch": "master",
     "commit": "cc2aad61a5ef173094ae4cf76810adea73880704",
-    "tree": "837929ac5d630755df27b7627759a40cf763783f"
+    "tree": "837929ac5d630755df27b7627759a40cf763783f",
+    "role": "HISTORICAL_BASELINE_ONLY"
+  },
+  "source_resolution_policy": {
+    "canonical_repository": "UMTTS-Institute/Mass-Harmonics",
+    "canonical_branch": "master",
+    "present_authority": "FROZEN_CURRENT_REPOSITORY_COMMIT",
+    "resolve_branch_once_per_source_contact_or_investigation": true,
+    "historical_baseline_role": "CUSTODY_REPLAY_REGRESSION_COMPARISON",
+    "identical_state": "CURRENT_AND_BASELINE_IDENTICAL",
+    "advanced_state": "SOURCE_ADVANCED",
+    "router_stale_state": "ROUTER_STALE",
+    "silent_historical_fallback": false,
+    "current_source_must_be_read_before_reasoning": true
   },
   "operating_rules": [
     "SOURCE → MAP. Never regenerate canonical mathematics or ontology from model memory.",
-    "Retrieve exact repository path and exact Git blob before using notation or derivation details.",
+    "Resolve the canonical branch to one exact immutable current commit before substantive source contact.",
     "The map is a pointer and routing surface, never a substitute for the source passage.",
+    "The historical Source Lock preserves custody and reproducibility; it does not override an advanced current canonical source.",
+    "If current blob differs from historical baseline blob, report SOURCE_ADVANCED, reason from current bytes, and retain the baseline identity for custody/replay/comparison.",
+    "Never silently fall back from current source to a historical locked blob.",
+    "A routing score is not an absence measurement. A router miss is not source absence.",
     "Physical causal order, operational routing, translation, and structural recurrence must not be collapsed into one parent/child relation.",
     "Missing or unresolved source detail remains unresolved rather than being completed plausibly.",
     "External scientific terrain is measured/interpretive input; it does not become MFE or other MH-native derivational authority by ingestion.",
@@ -156,12 +173,12 @@
       "purpose": "Retained physical history conditions later local reaction; recoverable modulation can remain visible downstream."
     },
     {
-      "id": "FIRST_PRINCIPLES_LAGRANGIAN",
-      "title": "Unique First-Principles Lagrangian",
+      "id": "UNIQUELY_FORCED_PRINCIPLE_DERIVATIONAL_STRUCTURE",
+      "title": "Canonical Uniquely Forced Principle Derivational Structure",
       "source": "MH_MONOGRAPH",
-      "locator": "PART 2: THE CANONICAL unique First-Principles-Lagrangian",
-      "anchor": "The Canonical unique First-Principles-Lagrangian",
-      "purpose": "Variational bedrock from which the MFE is derived."
+      "locator": "PART 2: THE CANONICAL AND UNIQUELY FORCED PRINCIPLE DERIVATIONAL STRUCTURE",
+      "anchor": "The Canonical and Uniquely Forced Principle Derivational Structure",
+      "purpose": "Canonical minimal principle-derivational structure from which the MFE is derived."
     },
     {
       "id": "MASTER_FIELD_EQUATION",
@@ -329,7 +346,7 @@
       "source": "MH_PROOF_SET",
       "locator": "PART VII - VALIDATION ARCHITECTURE / XIX. Scale Invariance Across 61 Orders of Magnitude",
       "anchor": "f = vₓ/(2πR) = Kψₘ/R",
-      "purpose": "Same closure law across physical scale without regime change."
+      "purpose": "Same closure law across physical scale without switching physics."
     },
     {
       "id": "PLANETARY_PCF_RESONANCE",
@@ -541,33 +558,14 @@
     }
   ],
   "known_repairs_from_legacy_working_maps": [
-    "The current GitHub Monograph, not an older uploaded copy, governs the causal reading order.",
-    "Retained causal markers are restored as an explicit stage because the pinned GitHub Monograph contains the August 3 retained-causal-marker integration.",
+    "Current canonical repository source, frozen to an exact commit for the interaction, governs present reasoning.",
+    "The historical baseline commit/tree/blob set remains preserved for custody, replay, regression comparison, and reproducibility.",
+    "A current-vs-baseline blob delta is SOURCE_ADVANCED, not an error and not permission to substitute the historical object.",
+    "Retained causal markers remain an explicit stage in the Monograph causal reading order.",
     "No direct CORE_TO_IONOSPHERE_SAA → COBALT_NUCLEAR_SPIN causal edge is retained. The Nuclear Spin source supplies its own native chain.",
     "No CASIMIR_EFFECT → TVP_PROTOCOL physical-causal edge is retained. Orientation identifies TVP as an audit discipline.",
     "The Resonant Brain metabolic result is preserved as approximately 20 W, not rewritten as exact 20.0 W zero error.",
-    "The old v4 '27-node' count is not inherited; this registry is counted mechanically from its machine-readable node list.",
     "Coordinates may be used as calculation/translation handles where the source does so; they are not promoted to substrate ontology.",
-    "Historical bare κ is not globally banned where the Monograph explicitly retains it inside intermediate variational steps; current canonical Kψₘ notation governs outside those sanctioned passages.",
-    "Derivation completeness, terrain contact, prediction/falsification state, and unresolved residual status are not collapsed into one synthetic status grade.",
-    "No invented universal edge taxonomy is imposed. Causal/structural/operational sequences are included only where the source itself declares the relation or sequence."
-  ],
-  "legacy_working_surfaces": [
-    {
-      "name": "causal_map-v2.md",
-      "role": "Earlier combined Causal-Map + Index-Web scaffold; useful repair provenance only."
-    },
-    {
-      "name": "causal_map-v3.md",
-      "role": "Earlier stable-node/adjacency expansion; useful repair provenance only."
-    },
-    {
-      "name": "causal_map-v4.md",
-      "role": "Later graph scaffold; retained as failure/repair terrain, not source authority."
-    },
-    {
-      "name": "MH_Causal_Web_Index_FULL_2026-07-09.md",
-      "role": "Historical exhaustive retrieval/index surface; useful for source-role and quarantine design, but its old hashes/line locators are not current GitHub authority."
-    }
+    "The Part 2 node uses the current source-native name: Uniquely Forced Principle Derivational Structure."
   ]
 }
