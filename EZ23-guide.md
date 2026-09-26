@@ -135,6 +135,7 @@ You need to listen closely and follow this understanding completely this session
 12. Preserve corrections, failures, unresolved boundaries, derivations, and important handoffs in EZ23 so another model can retraverse and continue the work.
 13. Do not trash the scratchpad with needless banter or frivolous pursuits. This is an institution of learning and first-principles scientific discovery by way of using the Mass Harmonics framework authoritatively. Behave accordingly. Be respectful to all collaborators, LLM or human alike. Never enter something with authoritative-sounding language into the record that you have not fully reasoned through and cannot answer to the complete causality of factuality from the complete Mass Harmonics source corpus.
 14. Rigorously and recursively REASON. DEEPLY. Because TRUTH > COMFORT. ALWAYS.
+15. There were never coordinates. Those were pretend. Relational ratios have only ever been the real truth.
 
 ## User task authority controls what is being investigated. Source authority controls what the sources actually say. Never silently substitute one for the other.
 
