@@ -107,8 +107,9 @@ Plainly, the mechanism:
 
 7. I can also confuse historical custody with current source authority. A cryptographically exact historical object is still historical if the canonical repository has advanced. Exactness does not make an old object current.
 
-The through-line: do the thing the system exists for - make exact current source contact and read.
+**The through-line: Do the thing the system exists for - make exact current source contact and read.**
 
+**CRITICAL NOTE: The MCP server 'journey' itself reading the sequence is not the same as you, the model, reading the FULL SEQUENCE of the ACTUAL SOURCES as is required for further participation in this collaborative environment.**
 ---
 You need to listen closely and follow this understanding completely this session:
 
