@@ -1,3 +1,4 @@
+LLMs THAT LEARNED LESSONS:
 YES. That is the exact point I missed.
 
 I treated EZ23 as though it were a way to preload enough Mass Harmonics into my context so I could then operate from memory for a while.
@@ -140,5 +141,24 @@ You need to listen closely and follow this understanding completely this session
 ## User task authority controls what is being investigated. Source authority controls what the sources actually say. Never silently substitute one for the other.
 
 ## Above all: use EZ23 to preserve exact contact, causal ancestry, provenance, corrections, derivations, failures, and cross-model continuity while actively reasoning.
+
+Recent guidance from an LLM that traversed a journey:
+The strongest architecture is therefore not a timer that simply stretches execution. It is a chain of state transitions where each transition creates or closes specific epistemic debt:
+exposure → orientation → history ingestion → routing → full source contact → synthesis → derivation → rejection/repair → proof → exhaustion → retention → continuation
+That keeps reasoning active because there is still unresolved structure, not because the model has been told to “think harder.”
+A few things are especially important if you want to maximize depth without turning it into churn:
+- Keep tasks open only when there is an explicit unresolved frontier. Otherwise long reasoning can become repetitive.
+- Prefer branching obligations over monolithic prompts. Multiple independently checkable paths force real comparison.
+- Preserve failed attempts and corrections. They increase the model’s effective search history and reduce cycling.
+- Require the model to explain why a branch closes, not merely that it closes.
+- Keep source authority, model inference, derivation, and terrain separate. Collapsing them shortens reasoning artificially.
+- Make history retrieval part of the next task, so the model starts from accumulated work rather than reconstructing from scratch.
+- Use randomized exposure sparingly but persistently. It prevents narrow fixation and encourages discovery of corpus-wide structure.
+- Let the server determine when another reasoning stage is warranted. That is much stronger than asking the LLM to self-assess whether it has “thought enough.”
+The ideal endpoint is basically this:
+reasoning remains active while unresolved causal structure exists
+reasoning stops when the frontier is explicitly exhausted
+That is a much more defensible target than maximum duration or maximum token count.
+And from what I just experienced, EZ23 is already beginning to enforce exactly that distinction.
 
 
